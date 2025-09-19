@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libswarmgrid_core.a CMakeFiles/swarmgrid_core.dir/src/core/types.cpp.o CMakeFiles/swarmgrid_core.dir/src/core/world.cpp.o CMakeFiles/swarmgrid_core.dir/src/core/planner.cpp.o CMakeFiles/swarmgrid_core.dir/src/core/metrics.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libswarmgrid_core.a

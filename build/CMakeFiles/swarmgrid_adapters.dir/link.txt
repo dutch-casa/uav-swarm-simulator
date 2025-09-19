@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libswarmgrid_adapters.a CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o CMakeFiles/swarmgrid_adapters.dir/src/adapters/map_loader_file.cpp.o CMakeFiles/swarmgrid_adapters.dir/src/adapters/metrics_writer.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libswarmgrid_adapters.a
