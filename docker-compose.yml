@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  # CLI simulation with visualization
+  swarmgrid-viz:
+    build: .
+    container_name: swarmgrid-visualization
+    volumes:
+      - ./output:/tmp:rw  # Mount output directory for results
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["run-simulation.sh", "--map", "maps/demo.txt", "--agents", "8", "--seed", "1337"]
+
+  # Stress test scenario
+  swarmgrid-stress:
+    build: .
+    container_name: swarmgrid-stress-test
+    volumes:
+      - ./output:/tmp:rw
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["run-simulation.sh", "--map", "maps/corridor.txt", "--agents", "6", "--seed", "42"]
+
+  # Custom simulation (override with docker-compose run)
+  swarmgrid-custom:
+    build: .
+    container_name: swarmgrid-custom
+    volumes:
+      - ./output:/tmp:rw
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Use: docker-compose run swarmgrid-custom run-simulation.sh --map maps/large.txt --agents 12
+
+volumes:
+  output:

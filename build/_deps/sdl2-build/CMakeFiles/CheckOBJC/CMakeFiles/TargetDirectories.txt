@@ -1,0 +1,2 @@
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/CheckOBJC/CMakeFiles/edit_cache.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/CheckOBJC/CMakeFiles/rebuild_cache.dir

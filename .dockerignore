@@ -1,0 +1,15 @@
+build/*
+!build/swarmgrid_app
+.git/
+.vscode/
+.DS_Store
+*.o
+*.a
+*.so
+compile_commands.json
+output/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+*.log
