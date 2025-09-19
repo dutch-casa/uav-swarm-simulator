@@ -3,6 +3,7 @@
 #include "swarmgrid/ports/inet.hpp"
 #include <boost/asio.hpp>
 #include <boost/asio/steady_timer.hpp>
+#include <boost/functional/hash.hpp>
 #include <random>
 #include <queue>
 #include <unordered_map>
@@ -42,7 +43,8 @@ private:
     std::unordered_map<boost::uuids::uuid,
         std::priority_queue<DelayedMessage,
                           std::vector<DelayedMessage>,
-                          std::greater<>>> message_queues_;
+                          std::greater<>>,
+        boost::hash<boost::uuids::uuid>> message_queues_;
 
     uint64_t total_sent_ = 0;
     uint64_t total_dropped_ = 0;

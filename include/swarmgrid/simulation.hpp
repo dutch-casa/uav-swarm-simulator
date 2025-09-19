@@ -7,15 +7,17 @@
 #include "swarmgrid/ports/imap_loader.hpp"
 #include <memory>
 #include <filesystem>
+#include <optional>
 
 namespace swarmgrid {
 
 struct SimulationConfig {
     std::filesystem::path map_path;
-    int n_agents = 4;
+    std::optional<core::World> world;  // Allow direct world specification
+    int num_agents = 4;
     uint64_t seed = 42;
     ports::NetworkParams network_params;
-    int max_steps = 1000;
+    int max_ticks = 1000;
     std::filesystem::path trace_output;
     std::filesystem::path metrics_output;
     bool verbose = false;
@@ -27,10 +29,22 @@ public:
                std::unique_ptr<ports::IMapLoader> map_loader,
                std::unique_ptr<ports::INetwork> network);
 
+    // GUI-friendly constructor
+    Simulation(SimulationConfig config,
+               std::unique_ptr<ports::INetwork> network);
+
     bool initialize();
     bool run();
 
+    // GUI interface methods
+    void step();
+    void reset();
+    bool is_complete() const;
+    core::Tick get_current_tick() const { return current_tick_; }
+
     core::MetricsSnapshot get_metrics() const { return metrics_collector_.get_snapshot(); }
+    const core::World& get_world() const;
+    std::vector<core::AgentState> get_agents() const;
 
 private:
     SimulationConfig config_;
@@ -53,8 +67,10 @@ private:
     };
 
     std::vector<AgentController> agent_controllers_;
+    core::Tick current_tick_ = 0;
+    bool initialized_ = false;
 
-    void step();
+    void step_internal();
     void plan_agent_moves();
     void exchange_intents();
     void execute_moves();

@@ -4,7 +4,7 @@ A realistic multi-agent UAV swarm simulator demonstrating collision-free pathfin
 
 ## Features
 
-- **Multi-agent pathfinding**: A* algorithm with reservation tables for collision avoidance
+- **Multi-agent pathfinding**: A\* algorithm with reservation tables for collision avoidance
 - **Simulated network**: Configurable message drops, latency, and jitter
 - **Deterministic simulation**: Reproducible results with seed-based randomization
 - **Comprehensive metrics**: JSON and CSV output for analysis
@@ -72,19 +72,19 @@ ctest --output-on-failure
 
 ### Command Line Options
 
-| Option | Description | Default |
-|--------|-------------|---------|
-| `--map,-m` | Path to map file | Required |
-| `--agents,-n` | Number of agents | 8 |
-| `--seed,-s` | Random seed | 1337 |
-| `--drop,-d` | Message drop probability [0-1] | 0.05 |
-| `--latency,-l` | Mean network latency (ms) | 40 |
-| `--jitter,-j` | Network jitter (ms) | 10 |
-| `--max-steps` | Maximum simulation steps | 300 |
-| `--out-trace` | Output trace CSV file | trace.csv |
-| `--out-metrics` | Output metrics JSON file | metrics.json |
-| `--verbose,-v` | Enable verbose logging | false |
-| `--quiet,-q` | Suppress info messages | false |
+| Option          | Description                    | Default      |
+| --------------- | ------------------------------ | ------------ |
+| `--map,-m`      | Path to map file               | Required     |
+| `--agents,-n`   | Number of agents               | 8            |
+| `--seed,-s`     | Random seed                    | 1337         |
+| `--drop,-d`     | Message drop probability [0-1] | 0.05         |
+| `--latency,-l`  | Mean network latency (ms)      | 40           |
+| `--jitter,-j`   | Network jitter (ms)            | 10           |
+| `--max-steps`   | Maximum simulation steps       | 300          |
+| `--out-trace`   | Output trace CSV file          | trace.csv    |
+| `--out-metrics` | Output metrics JSON file       | metrics.json |
+| `--verbose,-v`  | Enable verbose logging         | false        |
+| `--quiet,-q`    | Suppress info messages         | false        |
 
 ## Map Format
 
@@ -108,6 +108,7 @@ Maps are text files with the following format:
 ## Output Files
 
 ### Metrics JSON
+
 ```json
 {
   "total_messages": 156,
@@ -121,6 +122,7 @@ Maps are text files with the following format:
 ```
 
 ### Trace CSV
+
 ```csv
 tick,agent_id,x,y,active_agents,messages_sent
 0,550e8400-e29b-41d4-a716-446655440000,0,0,8,1
@@ -132,18 +134,21 @@ tick,agent_id,x,y,active_agents,messages_sent
 ## Algorithm Details
 
 ### Pathfinding
-- **A* search** with Manhattan distance heuristic
+
+- **A\* search** with Manhattan distance heuristic
 - **Reservation table** prevents spatial-temporal conflicts
 - **Waiting strategy** when paths are blocked
 - **Replanning** on collision detection
 
 ### Network Simulation
+
 - **Broadcast communication** model
 - **Probabilistic message drops** with configurable rate
 - **Latency simulation** with jitter using normal distribution
 - **Deterministic behavior** based on RNG seed
 
 ### Collision Avoidance
+
 - **Reservation-based planning**: Agents reserve (x,y,t) cells
 - **Edge collision prevention**: Prevents head-on collisions
 - **Goal persistence**: Goals remain reserved after reaching
@@ -184,7 +189,7 @@ ctest --output-on-failure
 - **Map size**: Tested up to 50x50 grids
 - **Determinism**: Identical results with same seed
 - **Memory**: O(agents × map_size × time_horizon)
-- **Time complexity**: O(agents × A* × reservation_checks)
+- **Time complexity**: O(agents × A\* × reservation_checks)
 
 ## Extension Points
 
@@ -219,9 +224,9 @@ MIT License - see LICENSE file for details.
 ## Performance Benchmarks
 
 | Scenario | Agents | Map Size | Avg Makespan | Wall Time |
-|----------|--------|----------|--------------|-----------|
-| Simple | 4 | 10x10 | 15 ticks | <50ms |
-| Medium | 8 | 20x20 | 35 ticks | <200ms |
-| Complex | 16 | 30x30 | 65 ticks | <800ms |
+| -------- | ------ | -------- | ------------ | --------- |
+| Simple   | 4      | 10x10    | 15 ticks     | <50ms     |
+| Medium   | 8      | 20x20    | 35 ticks     | <200ms    |
+| Complex  | 16     | 30x30    | 65 ticks     | <800ms    |
 
-*Benchmarks on Intel i7-10700K, GCC 11, -O3 optimization*
+_Benchmarks on Intel i7-10700K, GCC 11, -O3 optimization_

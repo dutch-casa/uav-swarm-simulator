@@ -59,12 +59,12 @@ int main(int argc, char* argv[]) {
         // Build configuration
         swarmgrid::SimulationConfig config;
         config.map_path = vm["map"].as<std::string>();
-        config.n_agents = vm["agents"].as<int>();
+        config.num_agents = vm["agents"].as<int>();
         config.seed = vm["seed"].as<uint64_t>();
         config.network_params.drop_probability = vm["drop"].as<double>();
         config.network_params.mean_latency_ms = vm["latency"].as<int>();
         config.network_params.jitter_ms = vm["jitter"].as<int>();
-        config.max_steps = vm["max-steps"].as<int>();
+        config.max_ticks = vm["max-steps"].as<int>();
         config.trace_output = vm["out-trace"].as<std::string>();
         config.metrics_output = vm["out-metrics"].as<std::string>();
         config.verbose = vm.count("verbose") > 0;
@@ -75,7 +75,7 @@ int main(int argc, char* argv[]) {
             return 1;
         }
 
-        if (config.n_agents <= 0) {
+        if (config.num_agents <= 0) {
             spdlog::error("Number of agents must be positive");
             return 1;
         }
@@ -99,7 +99,7 @@ int main(int argc, char* argv[]) {
         }
 
         spdlog::info("Starting simulation with {} agents, seed {}",
-                    config.n_agents, config.seed);
+                    config.num_agents, config.seed);
         spdlog::info("Network: drop={:.2f}, latency={}ms, jitter={}ms",
                     config.network_params.drop_probability,
                     config.network_params.mean_latency_ms,

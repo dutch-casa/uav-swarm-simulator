@@ -6,12 +6,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Set policy for modern Boost
-cmake_policy(SET CMP0167 NEW)
+# Set policy for modern Boost (if available)
+if(POLICY CMP0167)
+    cmake_policy(SET CMP0167 NEW)
+endif()
 
 # Find required packages using modern approach
 find_package(PkgConfig REQUIRED)
-find_package(Boost 1.75 REQUIRED COMPONENTS program_options)
+find_package(Boost 1.70 REQUIRED COMPONENTS program_options)
 find_package(Threads REQUIRED)
 
 # Optional GUI dependencies
@@ -38,7 +40,25 @@ FetchContent_Declare(
     GIT_TAG v1.12.0
 )
 
+# ImGui for GUI
+if(BUILD_GUI)
+    FetchContent_Declare(
+        imgui
+        GIT_REPOSITORY https://github.com/ocornut/imgui.git
+        GIT_TAG v1.90.1
+    )
+
+    FetchContent_Declare(
+        SDL2
+        GIT_REPOSITORY https://github.com/libsdl-org/SDL.git
+        GIT_TAG release-2.28.5
+    )
+endif()
+
 FetchContent_MakeAvailable(Catch2 spdlog)
+if(BUILD_GUI)
+    FetchContent_MakeAvailable(imgui SDL2)
+endif()
 
 # Core library (pure, no dependencies on adapters)
 add_library(swarmgrid_core STATIC
@@ -76,6 +96,44 @@ target_link_libraries(swarmgrid_adapters PUBLIC
     Threads::Threads
 )
 
+# GUI library (optional)
+if(BUILD_GUI)
+    add_library(swarmgrid_gui STATIC
+        src/gui/renderer.cpp
+    )
+
+    target_include_directories(swarmgrid_gui PUBLIC
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+        $<INSTALL_INTERFACE:include>
+        ${imgui_SOURCE_DIR}
+        ${imgui_SOURCE_DIR}/backends
+    )
+
+    target_sources(swarmgrid_gui PRIVATE
+        ${imgui_SOURCE_DIR}/imgui.cpp
+        ${imgui_SOURCE_DIR}/imgui_demo.cpp
+        ${imgui_SOURCE_DIR}/imgui_draw.cpp
+        ${imgui_SOURCE_DIR}/imgui_tables.cpp
+        ${imgui_SOURCE_DIR}/imgui_widgets.cpp
+        ${imgui_SOURCE_DIR}/backends/imgui_impl_sdl2.cpp
+        ${imgui_SOURCE_DIR}/backends/imgui_impl_opengl3.cpp
+    )
+
+    target_link_libraries(swarmgrid_gui PUBLIC
+        swarmgrid_core
+        swarmgrid_adapters
+        SDL2::SDL2
+        ${CMAKE_DL_LIBS}
+    )
+
+    if(APPLE)
+        target_link_libraries(swarmgrid_gui PUBLIC "-framework OpenGL")
+    else()
+        find_package(OpenGL REQUIRED)
+        target_link_libraries(swarmgrid_gui PUBLIC OpenGL::GL)
+    endif()
+endif()
+
 # Main executable
 add_executable(swarmgrid_app
     src/main.cpp
@@ -89,6 +147,23 @@ target_link_libraries(swarmgrid_app PRIVATE
     Boost::program_options
     spdlog::spdlog
 )
+
+# GUI executable (optional)
+if(BUILD_GUI)
+    add_executable(swarmgrid_gui_app
+        src/gui_main.cpp
+        src/simulation.cpp
+    )
+
+    target_link_libraries(swarmgrid_gui_app PRIVATE
+        swarmgrid_core
+        swarmgrid_adapters
+        swarmgrid_gui
+        Boost::boost
+        Boost::program_options
+        spdlog::spdlog
+    )
+endif()
 
 # Tests
 enable_testing()

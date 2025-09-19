@@ -1,6 +1,8 @@
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/CMakeFiles/swarmgrid_core.dir
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/CMakeFiles/swarmgrid_adapters.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/CMakeFiles/swarmgrid_gui.dir
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/CMakeFiles/swarmgrid_app.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/CMakeFiles/swarmgrid_gui_app.dir
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/CMakeFiles/tests.dir
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/CMakeFiles/Experimental.dir
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/CMakeFiles/Nightly.dir
@@ -61,3 +63,16 @@
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/spdlog-build/CMakeFiles/install.dir
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/spdlog-build/CMakeFiles/install/local.dir
 /Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/spdlog-build/CMakeFiles/install/strip.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/sdl_headers_copy.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/SDL2main.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/SDL2.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/SDL2-static.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/SDL2_test.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/uninstall.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/test.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/edit_cache.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/rebuild_cache.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/list_install_components.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/install.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/install/local.dir
+/Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/sdl2-build/CMakeFiles/install/strip.dir

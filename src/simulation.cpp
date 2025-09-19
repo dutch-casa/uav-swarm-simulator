@@ -13,16 +13,31 @@ Simulation::Simulation(SimulationConfig config,
     , network_(std::move(network)) {
 }
 
+Simulation::Simulation(SimulationConfig config,
+                      std::unique_ptr<ports::INetwork> network)
+    : config_(std::move(config))
+    , network_(std::move(network)) {
+}
+
 bool Simulation::initialize() {
     spdlog::info("Initializing simulation with seed {}", config_.seed);
 
-    auto world = map_loader_->load(config_.map_path, config_.n_agents, config_.seed);
-    if (!world) {
-        spdlog::error("Failed to load world from map");
+    if (!config_.world.has_value() && map_loader_) {
+        // Load from file if world not provided directly
+        auto world = map_loader_->load(config_.map_path, config_.num_agents, config_.seed);
+        if (!world) {
+            spdlog::error("Failed to load world from map");
+            return false;
+        }
+        config_.world = std::move(*world);
+    }
+
+    if (!config_.world.has_value()) {
+        spdlog::error("No world provided");
         return false;
     }
 
-    world_manager_ = core::WorldManager(std::move(*world));
+    world_manager_ = core::WorldManager(std::move(*config_.world));
     planner_ = std::make_unique<core::PathPlanner>(world_manager_->get_world());
 
     // Initialize agent controllers
@@ -35,6 +50,7 @@ bool Simulation::initialize() {
     }
 
     spdlog::info("Initialized {} agents", agent_controllers_.size());
+    initialized_ = true;
     return true;
 }
 
@@ -49,10 +65,10 @@ bool Simulation::run() {
     metrics_collector_.start_timer();
 
     while (!check_termination()) {
-        step();
+        step_internal();
         world_manager_->advance_tick();
 
-        if (world_manager_->get_world().current_tick >= config_.max_steps) {
+        if (world_manager_->get_world().current_tick >= config_.max_ticks) {
             spdlog::warn("Reached maximum steps limit");
             break;
         }
@@ -74,7 +90,7 @@ bool Simulation::run() {
     return true;
 }
 
-void Simulation::step() {
+void Simulation::step_internal() {
     if (config_.verbose) {
         log_tick_state();
     }
@@ -263,6 +279,66 @@ void Simulation::save_outputs() {
             spdlog::error("Failed to save trace: {}", e.what());
         }
     }
+}
+
+// GUI interface methods
+void Simulation::step() {
+    if (!initialized_) {
+        if (!initialize()) {
+            return;
+        }
+    }
+
+    if (!is_complete()) {
+        step_internal();
+        world_manager_->advance_tick();
+        current_tick_ = world_manager_->get_world().current_tick;
+    }
+}
+
+void Simulation::reset() {
+    if (!initialized_) {
+        return;
+    }
+
+    current_tick_ = 0;
+    metrics_collector_.reset();
+    reservations_.clear();
+    network_->reset();
+
+    // Reset world manager
+    if (config_.world.has_value()) {
+        world_manager_ = core::WorldManager(*config_.world);
+
+        // Reinitialize agent controllers
+        agent_controllers_.clear();
+        for (const auto& agent : world_manager_->get_world().agents) {
+            AgentController controller;
+            controller.id = agent.id;
+            controller.last_intent = agent.pos;
+            agent_controllers_.push_back(controller);
+        }
+    }
+}
+
+bool Simulation::is_complete() const {
+    if (!world_manager_) {
+        return false;
+    }
+
+    return check_termination() ||
+           world_manager_->get_world().current_tick >= config_.max_ticks;
+}
+
+const core::World& Simulation::get_world() const {
+    return world_manager_->get_world();
+}
+
+std::vector<core::AgentState> Simulation::get_agents() const {
+    if (!world_manager_) {
+        return {};
+    }
+    return world_manager_->get_world().agents;
 }
 
 } // namespace swarmgrid
