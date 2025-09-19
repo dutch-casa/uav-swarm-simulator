@@ -27,12 +27,12 @@ bool ImGuiRenderer::initialize() {
         return false;
     }
 
-    // GL 3.0 + GLSL 130
-    const char* glsl_version = "#version 130";
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_FLAGS, 0);
+    // GL 3.2 Core + GLSL 150 for macOS compatibility
+    const char* glsl_version = "#version 150";
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_FLAGS, SDL_GL_CONTEXT_FORWARD_COMPATIBLE_FLAG);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
     SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 2);
 
     SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
     SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
@@ -230,18 +230,18 @@ void ImGuiRenderer::render_metrics(const swarmgrid::core::MetricsSnapshot& metri
 
     ImGui::Text("Current Tick: %d", current_tick);
     ImGui::Text("Makespan: %d", metrics.makespan);
-    ImGui::Text("Wall Time: %ld ms", metrics.wall_time.count());
+    ImGui::Text("Wall Time: %lld ms", static_cast<long long>(metrics.wall_time.count()));
 
     ImGui::Separator();
 
-    ImGui::Text("Total Messages: %zu", metrics.total_messages);
-    ImGui::Text("Dropped Messages: %zu", metrics.dropped_messages);
+    ImGui::Text("Total Messages: %llu", static_cast<unsigned long long>(metrics.total_messages));
+    ImGui::Text("Dropped Messages: %llu", static_cast<unsigned long long>(metrics.dropped_messages));
     ImGui::Text("Drop Rate: %.4f", metrics.total_messages > 0 ?
         static_cast<double>(metrics.dropped_messages) / metrics.total_messages : 0.0);
 
     ImGui::Separator();
 
-    ImGui::Text("Total Replans: %zu", metrics.total_replans);
+    ImGui::Text("Total Replans: %llu", static_cast<unsigned long long>(metrics.total_replans));
     ImGui::Text("Collision Detected: %s", metrics.collision_detected ? "Yes" : "No");
 
     ImGui::End();

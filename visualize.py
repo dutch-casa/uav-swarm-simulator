@@ -15,7 +15,44 @@ import numpy as np
 from pathlib import Path
 import argparse
 
-def load_data(trace_file, metrics_file):
+def load_map(map_file):
+    """Load map file to get obstacles."""
+    try:
+        with open(map_file, 'r') as f:
+            lines = f.readlines()
+
+        # Filter out comments and empty lines
+        map_lines = []
+        for line in lines:
+            line = line.strip()
+            if line and not line.startswith('//'):
+                map_lines.append(line)
+
+        if not map_lines:
+            return None
+
+        # Convert to 2D array
+        obstacles = []
+        for y, line in enumerate(map_lines):
+            for x, char in enumerate(line):
+                if char == '#':
+                    obstacles.append((x, y))
+
+        # Get grid dimensions
+        width = max(len(line) for line in map_lines) if map_lines else 0
+        height = len(map_lines)
+
+        return {
+            'obstacles': obstacles,
+            'width': width,
+            'height': height,
+            'grid': map_lines
+        }
+    except Exception as e:
+        print(f"Warning: Could not load map file {map_file}: {e}")
+        return None
+
+def load_data(trace_file, metrics_file, map_file=None):
     """Load trace CSV and metrics JSON files."""
     # Load trace data
     try:
@@ -23,7 +60,7 @@ def load_data(trace_file, metrics_file):
         print(f"Loaded {len(trace_df)} trace records")
     except Exception as e:
         print(f"Error loading trace file: {e}")
-        return None, None
+        return None, None, None
 
     # Load metrics data
     try:
@@ -32,11 +69,18 @@ def load_data(trace_file, metrics_file):
         print(f"Loaded metrics: {metrics}")
     except Exception as e:
         print(f"Error loading metrics file: {e}")
-        return trace_df, None
+        return trace_df, None, None
 
-    return trace_df, metrics
+    # Load map data if provided
+    map_data = None
+    if map_file:
+        map_data = load_map(map_file)
+        if map_data:
+            print(f"Loaded map: {map_data['width']}x{map_data['height']} with {len(map_data['obstacles'])} obstacles")
 
-def create_static_visualization(trace_df, metrics, output_file):
+    return trace_df, metrics, map_data
+
+def create_static_visualization(trace_df, metrics, output_file, map_data=None):
     """Create a static visualization showing final paths and metrics."""
 
     # Set up the plot
@@ -49,11 +93,25 @@ def create_static_visualization(trace_df, metrics, output_file):
     max_x = trace_df['x'].max()
     max_y = trace_df['y'].max()
 
+    # Use map dimensions if available
+    if map_data:
+        max_x = max(max_x, map_data['width'] - 1)
+        max_y = max(max_y, map_data['height'] - 1)
+
     # Draw grid
-    for i in range(max_x + 1):
-        ax1.axvline(x=i, color='lightgray', linewidth=0.5)
-    for i in range(max_y + 1):
-        ax1.axhline(y=i, color='lightgray', linewidth=0.5)
+    for i in range(max_x + 2):
+        ax1.axvline(x=i-0.5, color='lightgray', linewidth=0.5)
+    for i in range(max_y + 2):
+        ax1.axhline(y=i-0.5, color='lightgray', linewidth=0.5)
+
+    # Draw obstacles first (so they appear behind paths)
+    if map_data and map_data['obstacles']:
+        obstacle_x = [obs[0] for obs in map_data['obstacles']]
+        obstacle_y = [obs[1] for obs in map_data['obstacles']]
+        ax1.scatter(obstacle_x, obstacle_y,
+                   color='brown', s=400, marker='s',
+                   alpha=0.8, label='Obstacles', zorder=1)
+        print(f"Drew {len(map_data['obstacles'])} obstacles")
 
     # Plot agent paths
     agents = trace_df['agent_id'].unique()
