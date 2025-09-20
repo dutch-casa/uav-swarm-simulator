@@ -64,6 +64,18 @@ private:
         bool needs_replan = true;
         int wait_counter = 0;
         static constexpr int MAX_WAIT = 5;
+
+        // Local view of other agents' intentions
+        struct OtherAgentIntent {
+            boost::uuids::uuid agent_id;
+            core::Cell next_position;
+            core::Tick timestamp;
+            core::Path announced_path;  // Full path they announced
+        };
+        std::vector<OtherAgentIntent> known_intents;
+
+        // Local reservation table based on received messages
+        core::ReservationTable local_reservations;
     };
 
     std::vector<AgentController> agent_controllers_;

@@ -23,6 +23,7 @@ public:
         swarmgrid::core::Tick current_tick
     ) override;
     void reset() override;
+    swarmgrid::ports::NetworkStats get_stats() const override;
 
 private:
     struct DelayedMessage {

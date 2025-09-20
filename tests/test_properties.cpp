@@ -6,6 +6,7 @@
 #include <random>
 #include <filesystem>
 #include <fstream>
+#include <iostream>
 
 namespace fs = std::filesystem;
 
@@ -33,12 +34,12 @@ TEST_CASE("Property: No collisions across random configurations", "[properties]"
         for (int trial = 0; trial < 10; ++trial) {
             swarmgrid::SimulationConfig config;
             config.map_path = test_map;
-            config.n_agents = agent_dist(gen);
+            config.num_agents = agent_dist(gen);
             config.seed = seed_dist(gen);
             config.network_params.drop_probability = drop_dist(gen);
             config.network_params.mean_latency_ms = 0;
             config.network_params.jitter_ms = 0;
-            config.max_steps = 200;
+            config.max_ticks = 200;
             config.trace_output = "";
             config.metrics_output = "";
             config.verbose = false;
@@ -54,7 +55,7 @@ TEST_CASE("Property: No collisions across random configurations", "[properties]"
 
             auto metrics = sim.get_metrics();
             INFO("Trial " << trial << " with seed " << config.seed
-                 << " and " << config.n_agents << " agents");
+                 << " and " << config.num_agents << " agents");
             REQUIRE(!metrics.collision_detected);
         }
     }
@@ -67,12 +68,12 @@ TEST_CASE("Property: No collisions across random configurations", "[properties]"
         for (int trial = 0; trial < 5; ++trial) {
             swarmgrid::SimulationConfig config;
             config.map_path = test_map;
-            config.n_agents = 3;
+            config.num_agents = 3;
             config.seed = seed_dist(gen);
             config.network_params.drop_probability = 0.0;
             config.network_params.mean_latency_ms = 0;
             config.network_params.jitter_ms = 0;
-            config.max_steps = 500;
+            config.max_ticks = 500;
             config.trace_output = "";
             config.metrics_output = "";
             config.verbose = false;
@@ -88,7 +89,7 @@ TEST_CASE("Property: No collisions across random configurations", "[properties]"
 
             auto metrics = sim.get_metrics();
             INFO("Trial " << trial << " with seed " << config.seed);
-            REQUIRE(metrics.makespan < config.max_steps);
+            REQUIRE(metrics.makespan < config.max_ticks);
         }
     }
 
@@ -112,12 +113,12 @@ TEST_CASE("Property: Makespan increases with network delays", "[properties]") {
     auto run_with_latency = [&](int latency_ms) -> int {
         swarmgrid::SimulationConfig config;
         config.map_path = test_map;
-        config.n_agents = n_agents;
+        config.num_agents = n_agents;
         config.seed = fixed_seed;
         config.network_params.drop_probability = 0.0;
         config.network_params.mean_latency_ms = latency_ms;
         config.network_params.jitter_ms = 0;
-        config.max_steps = 500;
+        config.max_ticks = 500;
         config.trace_output = "";
         config.metrics_output = "";
         config.verbose = false;
@@ -142,6 +143,53 @@ TEST_CASE("Property: Makespan increases with network delays", "[properties]") {
     fs::remove(test_map);
 }
 
+TEST_CASE("Property: Network drops work correctly", "[properties]") {
+    SECTION("100% drop rate drops all messages") {
+        fs::path test_map = fs::temp_directory_path() / "drop_test.txt";
+        std::ofstream file(test_map);
+        file << "......\n";
+        file << "......\n";
+        file << "......\n";
+        file << "......\n";
+        file << "......\n";
+        file << "......\n";
+        file.close();
+
+        swarmgrid::SimulationConfig config;
+        config.map_path = test_map;
+        config.num_agents = 2;
+        config.seed = 42;
+        config.network_params.drop_probability = 1.0;  // 100% drop rate
+        config.network_params.mean_latency_ms = 0;
+        config.network_params.jitter_ms = 0;
+        config.max_ticks = 10;  // Short run since nothing will work
+        config.trace_output = "";
+        config.metrics_output = "";
+        config.verbose = false;
+
+        auto map_loader = std::make_unique<swarmgrid::adapters::MapLoaderFile>();
+        auto network = std::make_unique<swarmgrid::adapters::NetSimAsio>(
+            config.network_params, config.seed);
+
+        swarmgrid::Simulation sim(config, std::move(map_loader), std::move(network));
+
+        REQUIRE(sim.initialize());
+        REQUIRE(sim.run());
+
+        auto metrics = sim.get_metrics();
+
+        // With 100% drop rate, all messages should be dropped
+        std::cout << "Messages sent: " << metrics.total_messages << std::endl;
+        std::cout << "Messages dropped: " << metrics.dropped_messages << std::endl;
+
+        if (metrics.total_messages > 0) {
+            REQUIRE(metrics.dropped_messages == metrics.total_messages);
+        }
+
+        fs::remove(test_map);
+    }
+}
+
 TEST_CASE("Property: More agents increase complexity", "[properties]") {
     fs::path test_map = fs::temp_directory_path() / "agents_test.txt";
     std::ofstream file(test_map);
@@ -162,12 +210,12 @@ TEST_CASE("Property: More agents increase complexity", "[properties]") {
     auto run_with_agents = [&](int n_agents) -> swarmgrid::core::MetricsSnapshot {
         swarmgrid::SimulationConfig config;
         config.map_path = test_map;
-        config.n_agents = n_agents;
+        config.num_agents = n_agents;
         config.seed = fixed_seed;
         config.network_params.drop_probability = 0.0;
         config.network_params.mean_latency_ms = 0;
         config.network_params.jitter_ms = 0;
-        config.max_steps = 500;
+        config.max_ticks = 500;
         config.trace_output = "";
         config.metrics_output = "";
         config.verbose = false;

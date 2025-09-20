@@ -20,6 +20,11 @@ struct NetworkParams {
     int jitter_ms = 0;
 };
 
+struct NetworkStats {
+    uint64_t sent = 0;
+    uint64_t dropped = 0;
+};
+
 class INetwork {
 public:
     virtual ~INetwork() = default;
@@ -27,6 +32,7 @@ public:
     virtual void send(const Message& msg) = 0;
     virtual std::vector<Message> receive(const boost::uuids::uuid& agent_id, swarmgrid::core::Tick current_tick) = 0;
     virtual void reset() = 0;
+    virtual NetworkStats get_stats() const = 0;
 };
 
 template<typename T>

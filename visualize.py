@@ -123,7 +123,7 @@ def create_static_visualization(trace_df, metrics, output_file, map_data=None):
         # Plot path
         ax1.plot(agent_data['x'], agent_data['y'],
                 color=colors[i], linewidth=2, alpha=0.7,
-                label=f'Agent {agent[:8]}...')
+                label=f'Agent {agent[:8]}...', zorder=2)
 
         # Mark start and end
         if len(agent_data) > 0:
@@ -132,10 +132,10 @@ def create_static_visualization(trace_df, metrics, output_file, map_data=None):
 
             ax1.scatter(start_pos['x'], start_pos['y'],
                        color=colors[i], s=100, marker='o',
-                       edgecolors='black', linewidth=2)
+                       edgecolors='black', linewidth=2, zorder=3)
             ax1.scatter(end_pos['x'], end_pos['y'],
                        color=colors[i], s=100, marker='s',
-                       edgecolors='black', linewidth=2)
+                       edgecolors='black', linewidth=2, zorder=3)
 
     ax1.set_xlim(-0.5, max_x + 0.5)
     ax1.set_ylim(-0.5, max_y + 0.5)
@@ -149,24 +149,24 @@ def create_static_visualization(trace_df, metrics, output_file, map_data=None):
     ax2.set_title('Simulation Metrics', fontsize=14, fontweight='bold')
 
     if metrics:
-        # Create metrics text
+        # Create metrics text (using text instead of emojis for compatibility)
         metrics_text = f"""
-        🎯 Mission Summary:
+        Mission Summary:
         ├─ Total Agents: {len(agents)}
         ├─ Simulation Ticks: {metrics.get('makespan', 'N/A')}
         ├─ Wall Time: {metrics.get('wall_time_ms', 'N/A')} ms
 
-        📡 Communication:
+        Communication:
         ├─ Total Messages: {metrics.get('total_messages', 'N/A')}
         ├─ Dropped Messages: {metrics.get('dropped_messages', 'N/A')}
         ├─ Drop Rate: {metrics.get('drop_rate', 'N/A'):.2%}
 
-        🔄 Planning:
+        Planning:
         ├─ Total Replans: {metrics.get('total_replans', 'N/A')}
         ├─ Avg Replans/Agent: {metrics.get('total_replans', 0) / len(agents):.1f}
 
-        ⚠️ Safety:
-        └─ Collisions: {'❌ YES' if metrics.get('collision_detected', False) else '✅ None'}
+        Safety:
+        └─ Collisions: {'YES' if metrics.get('collision_detected', False) else 'None'}
         """
 
         ax2.text(0.1, 0.9, metrics_text, transform=ax2.transAxes,
@@ -194,7 +194,7 @@ def create_static_visualization(trace_df, metrics, output_file, map_data=None):
 
     return fig
 
-def create_animated_visualization(trace_df, metrics, output_file):
+def create_animated_visualization(trace_df, metrics, output_file, map_data=None):
     """Create an animated GIF showing agent movements over time."""
 
     # Set up the plot
@@ -205,11 +205,16 @@ def create_animated_visualization(trace_df, metrics, output_file):
     max_y = trace_df['y'].max()
     max_tick = trace_df['tick'].max()
 
+    # Use map dimensions if available
+    if map_data:
+        max_x = max(max_x, map_data['width'] - 1)
+        max_y = max(max_y, map_data['height'] - 1)
+
     # Draw grid
-    for i in range(max_x + 1):
-        ax.axvline(x=i, color='lightgray', linewidth=0.5)
-    for i in range(max_y + 1):
-        ax.axhline(y=i, color='lightgray', linewidth=0.5)
+    for i in range(max_x + 2):
+        ax.axvline(x=i-0.5, color='lightgray', linewidth=0.5)
+    for i in range(max_y + 2):
+        ax.axhline(y=i-0.5, color='lightgray', linewidth=0.5)
 
     ax.set_xlim(-0.5, max_x + 0.5)
     ax.set_ylim(-0.5, max_y + 0.5)
@@ -227,16 +232,24 @@ def create_animated_visualization(trace_df, metrics, output_file):
         ax.clear()
 
         # Redraw grid
-        for i in range(max_x + 1):
-            ax.axvline(x=i, color='lightgray', linewidth=0.5)
-        for i in range(max_y + 1):
-            ax.axhline(y=i, color='lightgray', linewidth=0.5)
+        for i in range(max_x + 2):
+            ax.axvline(x=i-0.5, color='lightgray', linewidth=0.5)
+        for i in range(max_y + 2):
+            ax.axhline(y=i-0.5, color='lightgray', linewidth=0.5)
 
         ax.set_xlim(-0.5, max_x + 0.5)
         ax.set_ylim(-0.5, max_y + 0.5)
         ax.set_xlabel('X Position')
         ax.set_ylabel('Y Position')
         ax.grid(True, alpha=0.3)
+
+        # Draw obstacles
+        if map_data and map_data['obstacles']:
+            obstacle_x = [obs[0] for obs in map_data['obstacles']]
+            obstacle_y = [obs[1] for obs in map_data['obstacles']]
+            ax.scatter(obstacle_x, obstacle_y,
+                      color='brown', s=400, marker='s',
+                      alpha=0.8, zorder=1)
 
         # Current tick
         current_tick = frame
@@ -277,21 +290,22 @@ def main():
     parser.add_argument('trace_file', help='Path to trace CSV file')
     parser.add_argument('metrics_file', help='Path to metrics JSON file')
     parser.add_argument('output_file', help='Output image file path')
+    parser.add_argument('--map', help='Path to map file to show obstacles')
     parser.add_argument('--animate', action='store_true', help='Create animated GIF')
 
     args = parser.parse_args()
 
     # Load data
-    trace_df, metrics = load_data(args.trace_file, args.metrics_file)
+    trace_df, metrics, map_data = load_data(args.trace_file, args.metrics_file, args.map)
     if trace_df is None:
         sys.exit(1)
 
     # Create visualization
     try:
-        fig = create_static_visualization(trace_df, metrics, args.output_file)
+        fig = create_static_visualization(trace_df, metrics, args.output_file, map_data)
 
         if args.animate and len(trace_df) > 0:
-            create_animated_visualization(trace_df, metrics, args.output_file)
+            create_animated_visualization(trace_df, metrics, args.output_file, map_data)
 
         print("Visualization complete!")
 

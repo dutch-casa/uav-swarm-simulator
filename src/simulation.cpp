@@ -163,6 +163,12 @@ void Simulation::plan_agent_moves() {
 }
 
 void Simulation::exchange_intents() {
+    // Track network stats before sending
+    auto stats_before = network_->get_stats();
+
+    // Track which agents successfully sent messages
+    std::vector<boost::uuids::uuid> successful_broadcasts;
+
     // Broadcast intents through network
     for (const auto& controller : agent_controllers_) {
         if (controller.path_index < controller.current_path.size()) {
@@ -171,9 +177,33 @@ void Simulation::exchange_intents() {
                 controller.current_path[controller.path_index],
                 world_manager_->get_world().current_tick
             };
+
+            auto pre_send_stats = network_->get_stats();
             network_->send(msg);
-            metrics_collector_.record_message_sent();
+            auto post_send_stats = network_->get_stats();
+
+            // If message wasn't dropped, track it as successful
+            if (post_send_stats.dropped == pre_send_stats.dropped) {
+                successful_broadcasts.push_back(controller.id);
+            } else {
+                // Message was dropped - clear this agent's reservations
+                // simulating that other agents don't know about their intentions
+                planner_->clear_reservations(controller.id, reservations_);
+            }
         }
+    }
+
+    // Get network stats after sending to track actual drops
+    auto stats_after = network_->get_stats();
+    uint64_t messages_sent_this_tick = stats_after.sent - stats_before.sent;
+    uint64_t messages_dropped_this_tick = stats_after.dropped - stats_before.dropped;
+
+    // Record the actual statistics
+    for (uint64_t i = 0; i < messages_sent_this_tick; ++i) {
+        metrics_collector_.record_message_sent();
+    }
+    for (uint64_t i = 0; i < messages_dropped_this_tick; ++i) {
+        metrics_collector_.record_message_dropped();
     }
 
     // Receive intents from other agents

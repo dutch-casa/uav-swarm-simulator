@@ -106,4 +106,9 @@ bool NetSimAsio::should_drop_message() {
     return drop_dist_(rng_) < params_.drop_probability;
 }
 
+swarmgrid::ports::NetworkStats NetSimAsio::get_stats() const {
+    std::lock_guard lock(queue_mutex_);
+    return {total_sent_, total_dropped_};
+}
+
 } // namespace swarmgrid::adapters
