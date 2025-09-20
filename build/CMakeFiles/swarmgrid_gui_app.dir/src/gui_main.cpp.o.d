@@ -1234,6 +1234,8 @@ CMakeFiles/swarmgrid_gui_app.dir/src/gui_main.cpp.o: \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_locale.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_misc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tree \
   /Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/simulation.hpp \
   /Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/core/world.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/unordered_set \
@@ -1715,8 +1717,6 @@ CMakeFiles/swarmgrid_gui_app.dir/src/gui_main.cpp.o: \
   /opt/homebrew/include/boost/multi_index/detail/cons_stdtuple.hpp \
   /opt/homebrew/include/boost/graph/adjacency_list.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/list \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/set \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tree \
   /opt/homebrew/include/boost/unordered_set.hpp \
   /opt/homebrew/include/boost/unordered/unordered_set.hpp \
   /opt/homebrew/include/boost/unordered/detail/serialize_fca_container.hpp \

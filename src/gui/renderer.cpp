@@ -105,6 +105,9 @@ bool ImGuiRenderer::step_requested() const {
 
 bool ImGuiRenderer::reset_requested() const {
     bool result = reset_requested_flag_;
+    if (result) {
+        const_cast<ImGuiRenderer*>(this)->reset_visualization();
+    }
     const_cast<ImGuiRenderer*>(this)->reset_requested_flag_ = false;
     return result;
 }
@@ -142,8 +145,47 @@ void ImGuiRenderer::present() {
     SDL_GL_SwapWindow(window_);
 }
 
+void ImGuiRenderer::update_agent_trails(const std::vector<swarmgrid::core::AgentState>& agents) {
+    for (const auto& agent : agents) {
+        // Track agent movement for trail visualization
+        auto it = last_agent_positions_.find(agent.id);
+        if (it != last_agent_positions_.end()) {
+            // Agent moved, add previous position to trail
+            if (it->second != agent.pos) {
+                agent_trails_[agent.id].push_back(it->second);
+                // Limit trail length to prevent memory growth
+                if (agent_trails_[agent.id].size() > 100) {
+                    agent_trails_[agent.id].erase(agent_trails_[agent.id].begin());
+                }
+            }
+        }
+        last_agent_positions_[agent.id] = agent.pos;
+    }
+
+    // Detect collisions for visualization
+    std::unordered_map<swarmgrid::core::Cell, std::vector<boost::uuids::uuid>, swarmgrid::core::CellHash> position_map;
+    for (const auto& agent : agents) {
+        position_map[agent.pos].push_back(agent.id);
+    }
+
+    for (const auto& [pos, agent_ids] : position_map) {
+        if (agent_ids.size() > 1) {
+            collision_locations_.insert(pos);
+        }
+    }
+}
+
+void ImGuiRenderer::reset_visualization() {
+    agent_trails_.clear();
+    collision_locations_.clear();
+    last_agent_positions_.clear();
+}
+
 void ImGuiRenderer::render_grid(const swarmgrid::core::World& world,
                                 const std::vector<swarmgrid::core::AgentState>& agents) {
+    // Update trail tracking
+    update_agent_trails(agents);
+
     ImGui::Begin("Grid Visualization", nullptr, ImGuiWindowFlags_AlwaysAutoResize);
 
     ImDrawList* draw_list = ImGui::GetWindowDrawList();
@@ -183,7 +225,50 @@ void ImGuiRenderer::render_grid(const swarmgrid::core::World& world,
     // Generate consistent colors for agents
     static std::unordered_map<boost::uuids::uuid, ImU32, boost::hash<boost::uuids::uuid>> agent_colors;
 
-    // Draw agents
+    // Draw agent trails (opaque path of visited cells)
+    for (const auto& [agent_id, trail] : agent_trails_) {
+        if (agent_colors.find(agent_id) == agent_colors.end()) continue;
+
+        ImU32 trail_color = agent_colors[agent_id];
+        // Make trail slightly darker than agent color
+        ImU32 dark_trail_color = IM_COL32(
+            static_cast<int>((trail_color & 0xFF0000) >> 16) * 0.7,
+            static_cast<int>((trail_color & 0x00FF00) >> 8) * 0.7,
+            static_cast<int>(trail_color & 0x0000FF) * 0.7,
+            255
+        );
+
+        for (const auto& cell : trail) {
+            ImVec2 top_left(canvas_pos.x + cell.x * CELL_SIZE + 2, canvas_pos.y + cell.y * CELL_SIZE + 2);
+            ImVec2 bottom_right(canvas_pos.x + (cell.x + 1) * CELL_SIZE - 2, canvas_pos.y + (cell.y + 1) * CELL_SIZE - 2);
+            draw_list->AddRectFilled(top_left, bottom_right, dark_trail_color);
+        }
+    }
+
+    // Draw collision markers (red X)
+    for (const auto& collision_pos : collision_locations_) {
+        ImVec2 center(
+            canvas_pos.x + collision_pos.x * CELL_SIZE + CELL_SIZE / 2,
+            canvas_pos.y + collision_pos.y * CELL_SIZE + CELL_SIZE / 2
+        );
+
+        ImU32 red_color = IM_COL32(255, 0, 0, 255);
+        float size = CELL_SIZE * 0.4f;
+
+        // Draw X mark
+        draw_list->AddLine(
+            ImVec2(center.x - size, center.y - size),
+            ImVec2(center.x + size, center.y + size),
+            red_color, 3.0f
+        );
+        draw_list->AddLine(
+            ImVec2(center.x - size, center.y + size),
+            ImVec2(center.x + size, center.y - size),
+            red_color, 3.0f
+        );
+    }
+
+    // Draw planned paths (faded)
     for (const auto& agent : agents) {
         if (agent_colors.find(agent.id) == agent_colors.end()) {
             // Generate a color based on agent ID hash
@@ -197,6 +282,43 @@ void ImGuiRenderer::render_grid(const swarmgrid::core::World& world,
             agent_colors[agent.id] = color;
         }
 
+        ImU32 agent_color = agent_colors[agent.id];
+
+        // Draw planned path (faded)
+        if (!agent.planned_path.empty()) {
+            ImU32 faded_color = IM_COL32(
+                static_cast<int>((agent_color & 0xFF0000) >> 16),
+                static_cast<int>((agent_color & 0x00FF00) >> 8),
+                static_cast<int>(agent_color & 0x0000FF),
+                80  // Low alpha for faded effect
+            );
+
+            // Draw path from current position to path index onwards
+            for (size_t i = agent.path_index; i < agent.planned_path.size(); ++i) {
+                const auto& cell = agent.planned_path[i];
+                ImVec2 center(
+                    canvas_pos.x + cell.x * CELL_SIZE + CELL_SIZE / 2,
+                    canvas_pos.y + cell.y * CELL_SIZE + CELL_SIZE / 2
+                );
+
+                // Draw small circle for planned path
+                draw_list->AddCircleFilled(center, CELL_SIZE * 0.15f, faded_color);
+
+                // Draw line to next cell
+                if (i < agent.planned_path.size() - 1) {
+                    const auto& next_cell = agent.planned_path[i + 1];
+                    ImVec2 next_center(
+                        canvas_pos.x + next_cell.x * CELL_SIZE + CELL_SIZE / 2,
+                        canvas_pos.y + next_cell.y * CELL_SIZE + CELL_SIZE / 2
+                    );
+                    draw_list->AddLine(center, next_center, faded_color, 2.0f);
+                }
+            }
+        }
+    }
+
+    // Draw agents
+    for (const auto& agent : agents) {
         ImU32 agent_color = agent_colors[agent.id];
         ImVec2 center(
             canvas_pos.x + agent.pos.x * CELL_SIZE + CELL_SIZE / 2,

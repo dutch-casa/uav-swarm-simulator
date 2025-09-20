@@ -2937,7 +2937,11 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/voidify.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/monotonic_buffer_resource.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/pool_options.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/synchronized_pool_resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/unsynchronized_pool_resource.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mutex/lock_guard.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mutex/mutex.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mutex/once_flag.h \
@@ -3063,6 +3067,7 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__thread/this_thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__thread/thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__threading_support \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tree \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tuple/pair_like.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
@@ -3281,8 +3286,10 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/iterator \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/latch \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/limits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/locale \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/locale.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/memory \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/memory_resource \
@@ -3298,6 +3305,7 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/ranges \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/semaphore \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/set \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/shared_mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/source_location \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/span \
@@ -3321,6 +3329,7 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/typeindex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/typeinfo \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/unordered_set \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/utility \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/variant \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/vector \
@@ -3519,6 +3528,7 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
   /Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/adapters/net_sim_asio.hpp \
+  /Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/core/planner.hpp \
   /Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/core/types.hpp \
   /Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/ports/inet.hpp \
   /opt/homebrew/include/boost/align/aligned_alloc.hpp \
@@ -3952,7 +3962,17 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /opt/homebrew/include/boost/asio/write_at.hpp \
   /opt/homebrew/include/boost/assert.hpp \
   /opt/homebrew/include/boost/assert/source_location.hpp \
+  /opt/homebrew/include/boost/call_traits.hpp \
   /opt/homebrew/include/boost/cerrno.hpp \
+  /opt/homebrew/include/boost/concept/assert.hpp \
+  /opt/homebrew/include/boost/concept/detail/backward_compatibility.hpp \
+  /opt/homebrew/include/boost/concept/detail/concept_def.hpp \
+  /opt/homebrew/include/boost/concept/detail/concept_undef.hpp \
+  /opt/homebrew/include/boost/concept/detail/general.hpp \
+  /opt/homebrew/include/boost/concept/detail/has_constraints.hpp \
+  /opt/homebrew/include/boost/concept/usage.hpp \
+  /opt/homebrew/include/boost/concept_archetype.hpp \
+  /opt/homebrew/include/boost/concept_check.hpp \
   /opt/homebrew/include/boost/config.hpp \
   /opt/homebrew/include/boost/config/compiler/clang.hpp \
   /opt/homebrew/include/boost/config/compiler/clang_version.hpp \
@@ -3964,6 +3984,7 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /opt/homebrew/include/boost/config/detail/suffix.hpp \
   /opt/homebrew/include/boost/config/helper_macros.hpp \
   /opt/homebrew/include/boost/config/platform/macos.hpp \
+  /opt/homebrew/include/boost/config/pragma_message.hpp \
   /opt/homebrew/include/boost/config/stdlib/libcpp.hpp \
   /opt/homebrew/include/boost/config/user.hpp \
   /opt/homebrew/include/boost/config/workaround.hpp \
@@ -3980,6 +4001,26 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /opt/homebrew/include/boost/container_hash/is_range.hpp \
   /opt/homebrew/include/boost/container_hash/is_tuple_like.hpp \
   /opt/homebrew/include/boost/container_hash/is_unordered_range.hpp \
+  /opt/homebrew/include/boost/core/addressof.hpp \
+  /opt/homebrew/include/boost/core/allocator_access.hpp \
+  /opt/homebrew/include/boost/core/allocator_traits.hpp \
+  /opt/homebrew/include/boost/core/bit.hpp \
+  /opt/homebrew/include/boost/core/checked_delete.hpp \
+  /opt/homebrew/include/boost/core/detail/sp_thread_pause.hpp \
+  /opt/homebrew/include/boost/core/detail/sp_thread_sleep.hpp \
+  /opt/homebrew/include/boost/core/detail/sp_thread_yield.hpp \
+  /opt/homebrew/include/boost/core/empty_value.hpp \
+  /opt/homebrew/include/boost/core/enable_if.hpp \
+  /opt/homebrew/include/boost/core/invoke_swap.hpp \
+  /opt/homebrew/include/boost/core/launder.hpp \
+  /opt/homebrew/include/boost/core/no_exceptions_support.hpp \
+  /opt/homebrew/include/boost/core/noncopyable.hpp \
+  /opt/homebrew/include/boost/core/nvp.hpp \
+  /opt/homebrew/include/boost/core/pointer_traits.hpp \
+  /opt/homebrew/include/boost/core/ref.hpp \
+  /opt/homebrew/include/boost/core/serialization.hpp \
+  /opt/homebrew/include/boost/core/use_default.hpp \
+  /opt/homebrew/include/boost/core/yield_primitives.hpp \
   /opt/homebrew/include/boost/cstdint.hpp \
   /opt/homebrew/include/boost/describe/bases.hpp \
   /opt/homebrew/include/boost/describe/detail/config.hpp \
@@ -3987,9 +4028,65 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /opt/homebrew/include/boost/describe/detail/void_t.hpp \
   /opt/homebrew/include/boost/describe/members.hpp \
   /opt/homebrew/include/boost/describe/modifiers.hpp \
+  /opt/homebrew/include/boost/detail/call_traits.hpp \
   /opt/homebrew/include/boost/detail/workaround.hpp \
   /opt/homebrew/include/boost/exception/exception.hpp \
   /opt/homebrew/include/boost/functional/hash.hpp \
+  /opt/homebrew/include/boost/graph/adjacency_iterator.hpp \
+  /opt/homebrew/include/boost/graph/adjacency_list.hpp \
+  /opt/homebrew/include/boost/graph/astar_search.hpp \
+  /opt/homebrew/include/boost/graph/breadth_first_search.hpp \
+  /opt/homebrew/include/boost/graph/buffer_concepts.hpp \
+  /opt/homebrew/include/boost/graph/detail/adj_list_edge_iterator.hpp \
+  /opt/homebrew/include/boost/graph/detail/adjacency_list.hpp \
+  /opt/homebrew/include/boost/graph/detail/d_ary_heap.hpp \
+  /opt/homebrew/include/boost/graph/detail/edge.hpp \
+  /opt/homebrew/include/boost/graph/detail/empty_header.hpp \
+  /opt/homebrew/include/boost/graph/detail/mpi_include.hpp \
+  /opt/homebrew/include/boost/graph/exception.hpp \
+  /opt/homebrew/include/boost/graph/graph_concepts.hpp \
+  /opt/homebrew/include/boost/graph/graph_mutability_traits.hpp \
+  /opt/homebrew/include/boost/graph/graph_selectors.hpp \
+  /opt/homebrew/include/boost/graph/graph_traits.hpp \
+  /opt/homebrew/include/boost/graph/iteration_macros.hpp \
+  /opt/homebrew/include/boost/graph/named_function_params.hpp \
+  /opt/homebrew/include/boost/graph/named_graph.hpp \
+  /opt/homebrew/include/boost/graph/numeric_values.hpp \
+  /opt/homebrew/include/boost/graph/overloading.hpp \
+  /opt/homebrew/include/boost/graph/properties.hpp \
+  /opt/homebrew/include/boost/graph/property_maps/constant_property_map.hpp \
+  /opt/homebrew/include/boost/graph/property_maps/null_property_map.hpp \
+  /opt/homebrew/include/boost/graph/relax.hpp \
+  /opt/homebrew/include/boost/graph/two_bit_color_map.hpp \
+  /opt/homebrew/include/boost/graph/visitors.hpp \
+  /opt/homebrew/include/boost/iterator/advance.hpp \
+  /opt/homebrew/include/boost/iterator/detail/config_def.hpp \
+  /opt/homebrew/include/boost/iterator/detail/config_undef.hpp \
+  /opt/homebrew/include/boost/iterator/detail/eval_if_default.hpp \
+  /opt/homebrew/include/boost/iterator/detail/facade_iterator_category.hpp \
+  /opt/homebrew/include/boost/iterator/detail/type_traits/conjunction.hpp \
+  /opt/homebrew/include/boost/iterator/detail/type_traits/disjunction.hpp \
+  /opt/homebrew/include/boost/iterator/detail/type_traits/negation.hpp \
+  /opt/homebrew/include/boost/iterator/detail/type_traits/type_identity.hpp \
+  /opt/homebrew/include/boost/iterator/distance.hpp \
+  /opt/homebrew/include/boost/iterator/enable_if_convertible.hpp \
+  /opt/homebrew/include/boost/iterator/interoperable.hpp \
+  /opt/homebrew/include/boost/iterator/is_iterator.hpp \
+  /opt/homebrew/include/boost/iterator/iterator_adaptor.hpp \
+  /opt/homebrew/include/boost/iterator/iterator_categories.hpp \
+  /opt/homebrew/include/boost/iterator/iterator_concepts.hpp \
+  /opt/homebrew/include/boost/iterator/iterator_facade.hpp \
+  /opt/homebrew/include/boost/iterator/iterator_traits.hpp \
+  /opt/homebrew/include/boost/iterator/reverse_iterator.hpp \
+  /opt/homebrew/include/boost/limits.hpp \
+  /opt/homebrew/include/boost/move/core.hpp \
+  /opt/homebrew/include/boost/move/detail/addressof.hpp \
+  /opt/homebrew/include/boost/move/detail/config_begin.hpp \
+  /opt/homebrew/include/boost/move/detail/config_end.hpp \
+  /opt/homebrew/include/boost/move/detail/meta_utils.hpp \
+  /opt/homebrew/include/boost/move/detail/meta_utils_core.hpp \
+  /opt/homebrew/include/boost/move/detail/workaround.hpp \
+  /opt/homebrew/include/boost/move/utility_core.hpp \
   /opt/homebrew/include/boost/mp11/algorithm.hpp \
   /opt/homebrew/include/boost/mp11/bind.hpp \
   /opt/homebrew/include/boost/mp11/detail/config.hpp \
@@ -4018,6 +4115,663 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /opt/homebrew/include/boost/mp11/set.hpp \
   /opt/homebrew/include/boost/mp11/utility.hpp \
   /opt/homebrew/include/boost/mp11/version.hpp \
+  /opt/homebrew/include/boost/mpl/O1_size.hpp \
+  /opt/homebrew/include/boost/mpl/O1_size_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/advance.hpp \
+  /opt/homebrew/include/boost/mpl/advance_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/always.hpp \
+  /opt/homebrew/include/boost/mpl/and.hpp \
+  /opt/homebrew/include/boost/mpl/apply.hpp \
+  /opt/homebrew/include/boost/mpl/apply_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/apply_wrap.hpp \
+  /opt/homebrew/include/boost/mpl/arg.hpp \
+  /opt/homebrew/include/boost/mpl/arg_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/assert.hpp \
+  /opt/homebrew/include/boost/mpl/at.hpp \
+  /opt/homebrew/include/boost/mpl/at_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/O1_size_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/adl_barrier.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/advance_backward.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/advance_forward.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/arg_typedef.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/arithmetic_op.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/arity.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/arity_spec.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/at_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/begin_end_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/clear_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/common_name_wknd.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/comparison_op.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/adl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/arrays.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/bcc.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/bind.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/compiler.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/ctps.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/dtp.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/eti.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/forwarding.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/gcc.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/gpu.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/has_apply.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/has_xxx.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/integral.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/intel.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/lambda.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/msvc.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/msvc_typename.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/nttp.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/operators.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/overload_resolution.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/pp_counter.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/preprocessor.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/static_constant.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/ttp.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/typeof.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/config/workaround.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/contains_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/empty_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/find_if_pred.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/fold_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/full_lambda.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/has_apply.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/has_begin.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/has_key_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/has_size.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/has_tag.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/has_type.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/include_preprocessed.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/insert_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/inserter_algorithm.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/integral_wrapper.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/is_msvc_eti_arg.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/iter_apply.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/iter_fold_if_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/iter_fold_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/lambda_arity_param.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/lambda_spec.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/lambda_support.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/largest_int.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/msvc_eti_base.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/msvc_never_true.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/msvc_type.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/na.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/na_assert.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/na_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/na_spec.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/nttp_decl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/numeric_cast_utils.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/numeric_op.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/overload_names.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/less.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessor/enum.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/preprocessor/params.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/ptr_to_ref.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/push_back_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/push_front_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/reverse_fold_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/size_impl.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/static_cast.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/template_arity.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/template_arity_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/traits_lambda_spec.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/type_wrapper.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/value_wknd.hpp \
+  /opt/homebrew/include/boost/mpl/aux_/yes_no.hpp \
+  /opt/homebrew/include/boost/mpl/back_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/back_inserter.hpp \
+  /opt/homebrew/include/boost/mpl/base.hpp \
+  /opt/homebrew/include/boost/mpl/begin_end.hpp \
+  /opt/homebrew/include/boost/mpl/begin_end_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/bind.hpp \
+  /opt/homebrew/include/boost/mpl/bind_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/bool.hpp \
+  /opt/homebrew/include/boost/mpl/bool_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/clear.hpp \
+  /opt/homebrew/include/boost/mpl/clear_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/contains.hpp \
+  /opt/homebrew/include/boost/mpl/contains_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/count_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/deref.hpp \
+  /opt/homebrew/include/boost/mpl/distance.hpp \
+  /opt/homebrew/include/boost/mpl/distance_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/empty.hpp \
+  /opt/homebrew/include/boost/mpl/empty_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/erase_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/erase_key_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/eval_if.hpp \
+  /opt/homebrew/include/boost/mpl/find.hpp \
+  /opt/homebrew/include/boost/mpl/find_if.hpp \
+  /opt/homebrew/include/boost/mpl/fold.hpp \
+  /opt/homebrew/include/boost/mpl/front_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/front_inserter.hpp \
+  /opt/homebrew/include/boost/mpl/has_key.hpp \
+  /opt/homebrew/include/boost/mpl/has_key_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/has_xxx.hpp \
+  /opt/homebrew/include/boost/mpl/identity.hpp \
+  /opt/homebrew/include/boost/mpl/if.hpp \
+  /opt/homebrew/include/boost/mpl/insert.hpp \
+  /opt/homebrew/include/boost/mpl/insert_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/insert_range_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/inserter.hpp \
+  /opt/homebrew/include/boost/mpl/int.hpp \
+  /opt/homebrew/include/boost/mpl/int_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/integral_c.hpp \
+  /opt/homebrew/include/boost/mpl/integral_c_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/integral_c_tag.hpp \
+  /opt/homebrew/include/boost/mpl/is_sequence.hpp \
+  /opt/homebrew/include/boost/mpl/iter_fold.hpp \
+  /opt/homebrew/include/boost/mpl/iter_fold_if.hpp \
+  /opt/homebrew/include/boost/mpl/iterator_category.hpp \
+  /opt/homebrew/include/boost/mpl/iterator_range.hpp \
+  /opt/homebrew/include/boost/mpl/iterator_tags.hpp \
+  /opt/homebrew/include/boost/mpl/key_type_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/lambda.hpp \
+  /opt/homebrew/include/boost/mpl/lambda_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/less.hpp \
+  /opt/homebrew/include/boost/mpl/limits/arity.hpp \
+  /opt/homebrew/include/boost/mpl/limits/vector.hpp \
+  /opt/homebrew/include/boost/mpl/logical.hpp \
+  /opt/homebrew/include/boost/mpl/long.hpp \
+  /opt/homebrew/include/boost/mpl/long_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/min_max.hpp \
+  /opt/homebrew/include/boost/mpl/minus.hpp \
+  /opt/homebrew/include/boost/mpl/negate.hpp \
+  /opt/homebrew/include/boost/mpl/next.hpp \
+  /opt/homebrew/include/boost/mpl/next_prior.hpp \
+  /opt/homebrew/include/boost/mpl/not.hpp \
+  /opt/homebrew/include/boost/mpl/numeric_cast.hpp \
+  /opt/homebrew/include/boost/mpl/or.hpp \
+  /opt/homebrew/include/boost/mpl/order_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/pair.hpp \
+  /opt/homebrew/include/boost/mpl/pair_view.hpp \
+  /opt/homebrew/include/boost/mpl/placeholders.hpp \
+  /opt/homebrew/include/boost/mpl/plus.hpp \
+  /opt/homebrew/include/boost/mpl/pop_back_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/pop_front_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/prior.hpp \
+  /opt/homebrew/include/boost/mpl/protect.hpp \
+  /opt/homebrew/include/boost/mpl/push_back.hpp \
+  /opt/homebrew/include/boost/mpl/push_back_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/push_front.hpp \
+  /opt/homebrew/include/boost/mpl/push_front_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/quote.hpp \
+  /opt/homebrew/include/boost/mpl/reverse_fold.hpp \
+  /opt/homebrew/include/boost/mpl/reverse_iter_fold.hpp \
+  /opt/homebrew/include/boost/mpl/same_as.hpp \
+  /opt/homebrew/include/boost/mpl/sequence_tag.hpp \
+  /opt/homebrew/include/boost/mpl/sequence_tag_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/at_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/begin_end_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/clear_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/empty_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/erase_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/erase_key_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/has_key_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/insert_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/insert_range_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/item.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/iterator.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/key_type_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/set0.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/size_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/tag.hpp \
+  /opt/homebrew/include/boost/mpl/set/aux_/value_type_impl.hpp \
+  /opt/homebrew/include/boost/mpl/set/set0.hpp \
+  /opt/homebrew/include/boost/mpl/size.hpp \
+  /opt/homebrew/include/boost/mpl/size_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/tag.hpp \
+  /opt/homebrew/include/boost/mpl/transform.hpp \
+  /opt/homebrew/include/boost/mpl/value_type_fwd.hpp \
+  /opt/homebrew/include/boost/mpl/vector.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/O1_size.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/at.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/back.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/begin_end.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/clear.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/empty.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/front.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/include_preprocessed.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/item.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/iterator.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/pop_back.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/pop_front.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/push_back.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/push_front.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/size.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/tag.hpp \
+  /opt/homebrew/include/boost/mpl/vector/aux_/vector0.hpp \
+  /opt/homebrew/include/boost/mpl/vector/vector0.hpp \
+  /opt/homebrew/include/boost/mpl/vector/vector10.hpp \
+  /opt/homebrew/include/boost/mpl/vector/vector20.hpp \
+  /opt/homebrew/include/boost/mpl/void.hpp \
+  /opt/homebrew/include/boost/mpl/void_fwd.hpp \
+  /opt/homebrew/include/boost/multi_index/composite_key.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/access_specifier.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/adl_swap.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/allocator_traits.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/archive_constructed.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/auto_space.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/bad_archive_exception.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/base_type.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/bucket_array.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/cons_stdtuple.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/converter.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/copy_map.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/define_if_constexpr_macro.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/has_tag.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/hash_index_args.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/hash_index_iterator.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/hash_index_node.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/header_holder.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/index_access_sequence.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/index_base.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/index_loader.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/index_matcher.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/index_node_base.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/index_saver.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/invalidate_iterators.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/is_index_list.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/is_transparent.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/modify_key_adaptor.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/no_duplicate_tags.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/node_handle.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/node_type.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/ord_index_args.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/ord_index_impl_fwd.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/promotes_arg.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/raw_ptr.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/safe_mode.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/scope_guard.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/serialization_version.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp \
+  /opt/homebrew/include/boost/multi_index/detail/vartempl_support.hpp \
+  /opt/homebrew/include/boost/multi_index/hashed_index.hpp \
+  /opt/homebrew/include/boost/multi_index/hashed_index_fwd.hpp \
+  /opt/homebrew/include/boost/multi_index/identity.hpp \
+  /opt/homebrew/include/boost/multi_index/identity_fwd.hpp \
+  /opt/homebrew/include/boost/multi_index/indexed_by.hpp \
+  /opt/homebrew/include/boost/multi_index/member.hpp \
+  /opt/homebrew/include/boost/multi_index/ordered_index_fwd.hpp \
+  /opt/homebrew/include/boost/multi_index/tag.hpp \
+  /opt/homebrew/include/boost/multi_index_container.hpp \
+  /opt/homebrew/include/boost/multi_index_container_fwd.hpp \
+  /opt/homebrew/include/boost/next_prior.hpp \
+  /opt/homebrew/include/boost/none.hpp \
+  /opt/homebrew/include/boost/none_t.hpp \
+  /opt/homebrew/include/boost/operators.hpp \
+  /opt/homebrew/include/boost/optional.hpp \
+  /opt/homebrew/include/boost/optional/bad_optional_access.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_aligned_storage.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_config.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_factory_support.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_hash.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_reference_spec.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_relops.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_swap.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_trivially_copyable_base.hpp \
+  /opt/homebrew/include/boost/optional/detail/optional_utility.hpp \
+  /opt/homebrew/include/boost/optional/optional.hpp \
+  /opt/homebrew/include/boost/optional/optional_fwd.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/arg_list.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/augment_predicate.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/default.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/has_nested_template_fn.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/is_maybe.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/is_placeholder.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/is_tagged_argument.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/lambda_tag.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/name.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/pack/parameter_requirements.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/parameter_requirements.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/preprocessor/is_binary.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/preprocessor/nullptr.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/preprocessor/qualifier.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/result_of0.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/tag.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/tagged_argument.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/tagged_argument_fwd.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/template_keyword.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/unwrap_cv_reference.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/use_default_tag.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/void.hpp \
+  /opt/homebrew/include/boost/parameter/aux_/yesno.hpp \
+  /opt/homebrew/include/boost/parameter/binding.hpp \
+  /opt/homebrew/include/boost/parameter/config.hpp \
+  /opt/homebrew/include/boost/parameter/is_argument_pack.hpp \
+  /opt/homebrew/include/boost/parameter/keyword.hpp \
+  /opt/homebrew/include/boost/parameter/keyword_fwd.hpp \
+  /opt/homebrew/include/boost/parameter/name.hpp \
+  /opt/homebrew/include/boost/parameter/template_keyword.hpp \
+  /opt/homebrew/include/boost/parameter/value_type.hpp \
+  /opt/homebrew/include/boost/pending/container_traits.hpp \
+  /opt/homebrew/include/boost/pending/detail/property.hpp \
+  /opt/homebrew/include/boost/pending/property.hpp \
+  /opt/homebrew/include/boost/pending/queue.hpp \
+  /opt/homebrew/include/boost/preprocessor.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/add.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/dec.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/detail/div_base.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/detail/is_1_number.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/div.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/inc.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/limits/dec_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/limits/inc_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/mod.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/mul.hpp \
+  /opt/homebrew/include/boost/preprocessor/arithmetic/sub.hpp \
+  /opt/homebrew/include/boost/preprocessor/array.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/data.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/detail/get_data.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/elem.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/enum.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/insert.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/pop_back.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/pop_front.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/push_back.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/push_front.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/remove.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/replace.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/reverse.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/size.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/to_list.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/to_seq.hpp \
+  /opt/homebrew/include/boost/preprocessor/array/to_tuple.hpp \
+  /opt/homebrew/include/boost/preprocessor/cat.hpp \
+  /opt/homebrew/include/boost/preprocessor/comma_if.hpp \
+  /opt/homebrew/include/boost/preprocessor/comparison.hpp \
+  /opt/homebrew/include/boost/preprocessor/comparison/equal.hpp \
+  /opt/homebrew/include/boost/preprocessor/comparison/greater.hpp \
+  /opt/homebrew/include/boost/preprocessor/comparison/greater_equal.hpp \
+  /opt/homebrew/include/boost/preprocessor/comparison/less.hpp \
+  /opt/homebrew/include/boost/preprocessor/comparison/less_equal.hpp \
+  /opt/homebrew/include/boost/preprocessor/comparison/limits/not_equal_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/comparison/not_equal.hpp \
+  /opt/homebrew/include/boost/preprocessor/config/config.hpp \
+  /opt/homebrew/include/boost/preprocessor/config/limits.hpp \
+  /opt/homebrew/include/boost/preprocessor/control.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/deduce_d.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/detail/limits/while_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/detail/while.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/expr_if.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/expr_iif.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/if.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/iif.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/limits/while_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/control/while.hpp \
+  /opt/homebrew/include/boost/preprocessor/debug.hpp \
+  /opt/homebrew/include/boost/preprocessor/debug/assert.hpp \
+  /opt/homebrew/include/boost/preprocessor/debug/error.hpp \
+  /opt/homebrew/include/boost/preprocessor/debug/line.hpp \
+  /opt/homebrew/include/boost/preprocessor/detail/auto_rec.hpp \
+  /opt/homebrew/include/boost/preprocessor/detail/check.hpp \
+  /opt/homebrew/include/boost/preprocessor/detail/is_binary.hpp \
+  /opt/homebrew/include/boost/preprocessor/detail/is_unary.hpp \
+  /opt/homebrew/include/boost/preprocessor/detail/limits/auto_rec_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/empty.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/apply.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/check_empty.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/detail/is_empty.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/empty.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/expand.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/identity.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/intercept.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/is_1.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/is_empty.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/is_empty_variadic.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/limits/intercept_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/overload.hpp \
+  /opt/homebrew/include/boost/preprocessor/facilities/va_opt.hpp \
+  /opt/homebrew/include/boost/preprocessor/identity.hpp \
+  /opt/homebrew/include/boost/preprocessor/inc.hpp \
+  /opt/homebrew/include/boost/preprocessor/iteration.hpp \
+  /opt/homebrew/include/boost/preprocessor/iteration/iterate.hpp \
+  /opt/homebrew/include/boost/preprocessor/iteration/local.hpp \
+  /opt/homebrew/include/boost/preprocessor/iteration/self.hpp \
+  /opt/homebrew/include/boost/preprocessor/library.hpp \
+  /opt/homebrew/include/boost/preprocessor/list.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/adt.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/append.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/at.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/cat.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/detail/fold_left.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/detail/fold_right.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/enum.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/filter.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/first_n.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/fold_left.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/fold_right.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/for_each.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/for_each_i.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/for_each_product.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/limits/fold_left_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/rest_n.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/reverse.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/size.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/to_array.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/to_seq.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/to_tuple.hpp \
+  /opt/homebrew/include/boost/preprocessor/list/transform.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/and.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/bitand.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/bitnor.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/bitor.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/bitxor.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/bool.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/compl.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/limits/bool_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/nor.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/not.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/or.hpp \
+  /opt/homebrew/include/boost/preprocessor/logical/xor.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/comma.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/comma_if.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/is_begin_parens.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/paren.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/paren_if.hpp \
+  /opt/homebrew/include/boost/preprocessor/punctuation/remove_parens.hpp \
+  /opt/homebrew/include/boost/preprocessor/repeat.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/deduce_r.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/deduce_z.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/detail/for.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/detail/limits/for_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_binary_params.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_params.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_params_with_a_default.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_params_with_defaults.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_shifted.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_shifted_binary_params.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_shifted_params.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_trailing.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_trailing_binary_params.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/for.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/limits/for_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/limits/repeat_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/repeat.hpp \
+  /opt/homebrew/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /opt/homebrew/include/boost/preprocessor/selection.hpp \
+  /opt/homebrew/include/boost/preprocessor/selection/max.hpp \
+  /opt/homebrew/include/boost/preprocessor/selection/min.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/cat.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/detail/binary_transform.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/detail/is_empty.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/detail/limits/split_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/detail/split.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/elem.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/enum.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/filter.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/first_n.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/fold_left.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/fold_right.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/for_each.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/for_each_i.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/for_each_product.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/insert.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/limits/elem_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/limits/enum_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/limits/fold_left_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/limits/fold_right_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/limits/size_256.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/pop_back.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/pop_front.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/push_back.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/push_front.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/remove.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/replace.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/rest_n.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/reverse.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/seq.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/size.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/subseq.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/to_array.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/to_list.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/to_tuple.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/transform.hpp \
+  /opt/homebrew/include/boost/preprocessor/seq/variadic_seq_to_seq.hpp \
+  /opt/homebrew/include/boost/preprocessor/slot.hpp \
+  /opt/homebrew/include/boost/preprocessor/slot/detail/def.hpp \
+  /opt/homebrew/include/boost/preprocessor/slot/slot.hpp \
+  /opt/homebrew/include/boost/preprocessor/stringize.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/eat.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/elem.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/enum.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/insert.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/limits/reverse_64.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/limits/to_list_64.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/limits/to_seq_64.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/pop_back.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/pop_front.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/push_back.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/push_front.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/rem.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/remove.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/replace.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/reverse.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/size.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/to_array.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/to_list.hpp \
+  /opt/homebrew/include/boost/preprocessor/tuple/to_seq.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/detail/has_opt.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/detail/is_single_return.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/elem.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/has_opt.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/limits/elem_64.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/limits/size_64.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/size.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/to_array.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/to_list.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/to_seq.hpp \
+  /opt/homebrew/include/boost/preprocessor/variadic/to_tuple.hpp \
+  /opt/homebrew/include/boost/preprocessor/wstringize.hpp \
+  /opt/homebrew/include/boost/property_map/function_property_map.hpp \
+  /opt/homebrew/include/boost/property_map/property_map.hpp \
+  /opt/homebrew/include/boost/property_map/shared_array_property_map.hpp \
+  /opt/homebrew/include/boost/property_map/vector_property_map.hpp \
+  /opt/homebrew/include/boost/range/algorithm/equal.hpp \
+  /opt/homebrew/include/boost/range/begin.hpp \
+  /opt/homebrew/include/boost/range/concepts.hpp \
+  /opt/homebrew/include/boost/range/config.hpp \
+  /opt/homebrew/include/boost/range/const_iterator.hpp \
+  /opt/homebrew/include/boost/range/detail/common.hpp \
+  /opt/homebrew/include/boost/range/detail/extract_optional_type.hpp \
+  /opt/homebrew/include/boost/range/detail/has_member_size.hpp \
+  /opt/homebrew/include/boost/range/detail/implementation_help.hpp \
+  /opt/homebrew/include/boost/range/detail/misc_concept.hpp \
+  /opt/homebrew/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
+  /opt/homebrew/include/boost/range/detail/safe_bool.hpp \
+  /opt/homebrew/include/boost/range/detail/sfinae.hpp \
+  /opt/homebrew/include/boost/range/difference_type.hpp \
+  /opt/homebrew/include/boost/range/distance.hpp \
+  /opt/homebrew/include/boost/range/empty.hpp \
+  /opt/homebrew/include/boost/range/end.hpp \
+  /opt/homebrew/include/boost/range/functions.hpp \
+  /opt/homebrew/include/boost/range/has_range_iterator.hpp \
+  /opt/homebrew/include/boost/range/irange.hpp \
+  /opt/homebrew/include/boost/range/iterator.hpp \
+  /opt/homebrew/include/boost/range/iterator_range.hpp \
+  /opt/homebrew/include/boost/range/iterator_range_core.hpp \
+  /opt/homebrew/include/boost/range/iterator_range_io.hpp \
+  /opt/homebrew/include/boost/range/mutable_iterator.hpp \
+  /opt/homebrew/include/boost/range/range_fwd.hpp \
+  /opt/homebrew/include/boost/range/rbegin.hpp \
+  /opt/homebrew/include/boost/range/rend.hpp \
+  /opt/homebrew/include/boost/range/reverse_iterator.hpp \
+  /opt/homebrew/include/boost/range/size.hpp \
+  /opt/homebrew/include/boost/range/size_type.hpp \
+  /opt/homebrew/include/boost/range/value_type.hpp \
+  /opt/homebrew/include/boost/scoped_ptr.hpp \
+  /opt/homebrew/include/boost/shared_array.hpp \
+  /opt/homebrew/include/boost/smart_ptr/bad_weak_ptr.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/deprecated_macros.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/local_counted_base.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/shared_count.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/spinlock.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+  /opt/homebrew/include/boost/smart_ptr/detail/yield_k.hpp \
+  /opt/homebrew/include/boost/smart_ptr/scoped_ptr.hpp \
+  /opt/homebrew/include/boost/smart_ptr/shared_array.hpp \
+  /opt/homebrew/include/boost/smart_ptr/shared_ptr.hpp \
+  /opt/homebrew/include/boost/static_assert.hpp \
   /opt/homebrew/include/boost/system/api_config.hpp \
   /opt/homebrew/include/boost/system/detail/append_int.hpp \
   /opt/homebrew/include/boost/system/detail/cerrno.hpp \
@@ -4050,7 +4804,199 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /opt/homebrew/include/boost/system/system_category.hpp \
   /opt/homebrew/include/boost/system/system_error.hpp \
   /opt/homebrew/include/boost/throw_exception.hpp \
+  /opt/homebrew/include/boost/tuple/detail/tuple_basic.hpp \
+  /opt/homebrew/include/boost/tuple/tuple.hpp \
+  /opt/homebrew/include/boost/type_traits.hpp \
+  /opt/homebrew/include/boost/type_traits/add_const.hpp \
+  /opt/homebrew/include/boost/type_traits/add_cv.hpp \
+  /opt/homebrew/include/boost/type_traits/add_lvalue_reference.hpp \
+  /opt/homebrew/include/boost/type_traits/add_pointer.hpp \
+  /opt/homebrew/include/boost/type_traits/add_reference.hpp \
+  /opt/homebrew/include/boost/type_traits/add_rvalue_reference.hpp \
+  /opt/homebrew/include/boost/type_traits/add_volatile.hpp \
+  /opt/homebrew/include/boost/type_traits/aligned_storage.hpp \
+  /opt/homebrew/include/boost/type_traits/alignment_of.hpp \
+  /opt/homebrew/include/boost/type_traits/common_type.hpp \
+  /opt/homebrew/include/boost/type_traits/conditional.hpp \
+  /opt/homebrew/include/boost/type_traits/conjunction.hpp \
+  /opt/homebrew/include/boost/type_traits/conversion_traits.hpp \
+  /opt/homebrew/include/boost/type_traits/copy_cv.hpp \
+  /opt/homebrew/include/boost/type_traits/copy_cv_ref.hpp \
+  /opt/homebrew/include/boost/type_traits/copy_reference.hpp \
+  /opt/homebrew/include/boost/type_traits/cv_traits.hpp \
+  /opt/homebrew/include/boost/type_traits/decay.hpp \
+  /opt/homebrew/include/boost/type_traits/declval.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/config.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/has_binary_operator.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/has_postfix_operator.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/has_prefix_operator.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/is_swappable_cxx_11.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/mp_defer.hpp \
+  /opt/homebrew/include/boost/type_traits/detail/yes_no_type.hpp \
+  /opt/homebrew/include/boost/type_traits/disjunction.hpp \
+  /opt/homebrew/include/boost/type_traits/enable_if.hpp \
+  /opt/homebrew/include/boost/type_traits/extent.hpp \
+  /opt/homebrew/include/boost/type_traits/floating_point_promotion.hpp \
+  /opt/homebrew/include/boost/type_traits/function_traits.hpp \
+  /opt/homebrew/include/boost/type_traits/has_bit_and.hpp \
+  /opt/homebrew/include/boost/type_traits/has_bit_and_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_bit_or.hpp \
+  /opt/homebrew/include/boost/type_traits/has_bit_or_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_bit_xor.hpp \
+  /opt/homebrew/include/boost/type_traits/has_bit_xor_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_complement.hpp \
+  /opt/homebrew/include/boost/type_traits/has_dereference.hpp \
+  /opt/homebrew/include/boost/type_traits/has_divides.hpp \
+  /opt/homebrew/include/boost/type_traits/has_divides_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_equal_to.hpp \
+  /opt/homebrew/include/boost/type_traits/has_greater.hpp \
+  /opt/homebrew/include/boost/type_traits/has_greater_equal.hpp \
+  /opt/homebrew/include/boost/type_traits/has_left_shift.hpp \
+  /opt/homebrew/include/boost/type_traits/has_left_shift_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_less.hpp \
+  /opt/homebrew/include/boost/type_traits/has_less_equal.hpp \
+  /opt/homebrew/include/boost/type_traits/has_logical_and.hpp \
+  /opt/homebrew/include/boost/type_traits/has_logical_not.hpp \
+  /opt/homebrew/include/boost/type_traits/has_logical_or.hpp \
+  /opt/homebrew/include/boost/type_traits/has_minus.hpp \
+  /opt/homebrew/include/boost/type_traits/has_minus_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_modulus.hpp \
+  /opt/homebrew/include/boost/type_traits/has_modulus_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_multiplies.hpp \
+  /opt/homebrew/include/boost/type_traits/has_multiplies_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_negate.hpp \
+  /opt/homebrew/include/boost/type_traits/has_new_operator.hpp \
+  /opt/homebrew/include/boost/type_traits/has_not_equal_to.hpp \
+  /opt/homebrew/include/boost/type_traits/has_nothrow_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_nothrow_constructor.hpp \
+  /opt/homebrew/include/boost/type_traits/has_nothrow_copy.hpp \
+  /opt/homebrew/include/boost/type_traits/has_nothrow_destructor.hpp \
+  /opt/homebrew/include/boost/type_traits/has_plus.hpp \
+  /opt/homebrew/include/boost/type_traits/has_plus_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_post_decrement.hpp \
+  /opt/homebrew/include/boost/type_traits/has_post_increment.hpp \
+  /opt/homebrew/include/boost/type_traits/has_pre_decrement.hpp \
+  /opt/homebrew/include/boost/type_traits/has_pre_increment.hpp \
+  /opt/homebrew/include/boost/type_traits/has_right_shift.hpp \
+  /opt/homebrew/include/boost/type_traits/has_right_shift_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_trivial_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_trivial_constructor.hpp \
+  /opt/homebrew/include/boost/type_traits/has_trivial_copy.hpp \
+  /opt/homebrew/include/boost/type_traits/has_trivial_destructor.hpp \
+  /opt/homebrew/include/boost/type_traits/has_trivial_move_assign.hpp \
+  /opt/homebrew/include/boost/type_traits/has_trivial_move_constructor.hpp \
+  /opt/homebrew/include/boost/type_traits/has_unary_minus.hpp \
+  /opt/homebrew/include/boost/type_traits/has_unary_plus.hpp \
+  /opt/homebrew/include/boost/type_traits/has_virtual_destructor.hpp \
   /opt/homebrew/include/boost/type_traits/integral_constant.hpp \
+  /opt/homebrew/include/boost/type_traits/integral_promotion.hpp \
+  /opt/homebrew/include/boost/type_traits/intrinsics.hpp \
+  /opt/homebrew/include/boost/type_traits/is_abstract.hpp \
+  /opt/homebrew/include/boost/type_traits/is_arithmetic.hpp \
+  /opt/homebrew/include/boost/type_traits/is_array.hpp \
+  /opt/homebrew/include/boost/type_traits/is_assignable.hpp \
+  /opt/homebrew/include/boost/type_traits/is_base_and_derived.hpp \
+  /opt/homebrew/include/boost/type_traits/is_base_of.hpp \
+  /opt/homebrew/include/boost/type_traits/is_class.hpp \
+  /opt/homebrew/include/boost/type_traits/is_complete.hpp \
+  /opt/homebrew/include/boost/type_traits/is_complex.hpp \
+  /opt/homebrew/include/boost/type_traits/is_compound.hpp \
+  /opt/homebrew/include/boost/type_traits/is_const.hpp \
+  /opt/homebrew/include/boost/type_traits/is_constructible.hpp \
+  /opt/homebrew/include/boost/type_traits/is_convertible.hpp \
+  /opt/homebrew/include/boost/type_traits/is_copy_assignable.hpp \
+  /opt/homebrew/include/boost/type_traits/is_copy_constructible.hpp \
+  /opt/homebrew/include/boost/type_traits/is_default_constructible.hpp \
+  /opt/homebrew/include/boost/type_traits/is_destructible.hpp \
+  /opt/homebrew/include/boost/type_traits/is_empty.hpp \
+  /opt/homebrew/include/boost/type_traits/is_enum.hpp \
+  /opt/homebrew/include/boost/type_traits/is_final.hpp \
+  /opt/homebrew/include/boost/type_traits/is_float.hpp \
+  /opt/homebrew/include/boost/type_traits/is_floating_point.hpp \
+  /opt/homebrew/include/boost/type_traits/is_function.hpp \
+  /opt/homebrew/include/boost/type_traits/is_fundamental.hpp \
+  /opt/homebrew/include/boost/type_traits/is_integral.hpp \
+  /opt/homebrew/include/boost/type_traits/is_list_constructible.hpp \
+  /opt/homebrew/include/boost/type_traits/is_lvalue_reference.hpp \
+  /opt/homebrew/include/boost/type_traits/is_member_function_pointer.hpp \
+  /opt/homebrew/include/boost/type_traits/is_member_object_pointer.hpp \
+  /opt/homebrew/include/boost/type_traits/is_member_pointer.hpp \
+  /opt/homebrew/include/boost/type_traits/is_noncopyable.hpp \
+  /opt/homebrew/include/boost/type_traits/is_nothrow_move_assignable.hpp \
+  /opt/homebrew/include/boost/type_traits/is_nothrow_move_constructible.hpp \
+  /opt/homebrew/include/boost/type_traits/is_nothrow_swappable.hpp \
+  /opt/homebrew/include/boost/type_traits/is_object.hpp \
+  /opt/homebrew/include/boost/type_traits/is_pod.hpp \
+  /opt/homebrew/include/boost/type_traits/is_pointer.hpp \
+  /opt/homebrew/include/boost/type_traits/is_polymorphic.hpp \
+  /opt/homebrew/include/boost/type_traits/is_reference.hpp \
+  /opt/homebrew/include/boost/type_traits/is_rvalue_reference.hpp \
+  /opt/homebrew/include/boost/type_traits/is_same.hpp \
+  /opt/homebrew/include/boost/type_traits/is_scalar.hpp \
+  /opt/homebrew/include/boost/type_traits/is_scoped_enum.hpp \
+  /opt/homebrew/include/boost/type_traits/is_signed.hpp \
+  /opt/homebrew/include/boost/type_traits/is_stateless.hpp \
+  /opt/homebrew/include/boost/type_traits/is_swappable.hpp \
+  /opt/homebrew/include/boost/type_traits/is_trivially_copyable.hpp \
+  /opt/homebrew/include/boost/type_traits/is_union.hpp \
+  /opt/homebrew/include/boost/type_traits/is_unscoped_enum.hpp \
+  /opt/homebrew/include/boost/type_traits/is_unsigned.hpp \
+  /opt/homebrew/include/boost/type_traits/is_virtual_base_of.hpp \
+  /opt/homebrew/include/boost/type_traits/is_void.hpp \
+  /opt/homebrew/include/boost/type_traits/is_volatile.hpp \
+  /opt/homebrew/include/boost/type_traits/make_signed.hpp \
+  /opt/homebrew/include/boost/type_traits/make_unsigned.hpp \
+  /opt/homebrew/include/boost/type_traits/make_void.hpp \
+  /opt/homebrew/include/boost/type_traits/negation.hpp \
+  /opt/homebrew/include/boost/type_traits/promote.hpp \
+  /opt/homebrew/include/boost/type_traits/rank.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_all_extents.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_bounds.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_const.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_cv.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_cv_ref.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_extent.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_pointer.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_reference.hpp \
+  /opt/homebrew/include/boost/type_traits/remove_volatile.hpp \
+  /opt/homebrew/include/boost/type_traits/same_traits.hpp \
+  /opt/homebrew/include/boost/type_traits/type_identity.hpp \
+  /opt/homebrew/include/boost/type_traits/type_with_alignment.hpp \
+  /opt/homebrew/include/boost/typeof/decltype.hpp \
+  /opt/homebrew/include/boost/typeof/typeof.hpp \
+  /opt/homebrew/include/boost/unordered/detail/allocator_constructed.hpp \
+  /opt/homebrew/include/boost/unordered/detail/archive_constructed.hpp \
+  /opt/homebrew/include/boost/unordered/detail/bad_archive_exception.hpp \
+  /opt/homebrew/include/boost/unordered/detail/fca.hpp \
+  /opt/homebrew/include/boost/unordered/detail/implementation.hpp \
+  /opt/homebrew/include/boost/unordered/detail/map.hpp \
+  /opt/homebrew/include/boost/unordered/detail/narrow_cast.hpp \
+  /opt/homebrew/include/boost/unordered/detail/opt_storage.hpp \
+  /opt/homebrew/include/boost/unordered/detail/prime_fmod.hpp \
+  /opt/homebrew/include/boost/unordered/detail/serialization_version.hpp \
+  /opt/homebrew/include/boost/unordered/detail/serialize_container.hpp \
+  /opt/homebrew/include/boost/unordered/detail/serialize_fca_container.hpp \
+  /opt/homebrew/include/boost/unordered/detail/serialize_tracked_address.hpp \
+  /opt/homebrew/include/boost/unordered/detail/set.hpp \
+  /opt/homebrew/include/boost/unordered/detail/static_assert.hpp \
+  /opt/homebrew/include/boost/unordered/detail/throw_exception.hpp \
+  /opt/homebrew/include/boost/unordered/detail/type_traits.hpp \
+  /opt/homebrew/include/boost/unordered/unordered_map.hpp \
+  /opt/homebrew/include/boost/unordered/unordered_map_fwd.hpp \
+  /opt/homebrew/include/boost/unordered/unordered_printers.hpp \
+  /opt/homebrew/include/boost/unordered/unordered_set.hpp \
+  /opt/homebrew/include/boost/unordered/unordered_set_fwd.hpp \
+  /opt/homebrew/include/boost/unordered_map.hpp \
+  /opt/homebrew/include/boost/unordered_set.hpp \
+  /opt/homebrew/include/boost/utility.hpp \
+  /opt/homebrew/include/boost/utility/base_from_member.hpp \
+  /opt/homebrew/include/boost/utility/binary.hpp \
+  /opt/homebrew/include/boost/utility/detail/result_of_variadic.hpp \
+  /opt/homebrew/include/boost/utility/enable_if.hpp \
+  /opt/homebrew/include/boost/utility/identity_type.hpp \
+  /opt/homebrew/include/boost/utility/result_of.hpp \
   /opt/homebrew/include/boost/uuid/basic_random_generator.hpp \
   /opt/homebrew/include/boost/uuid/detail/basic_name_generator.hpp \
   /opt/homebrew/include/boost/uuid/detail/chacha20.hpp \
@@ -4083,7 +5029,169 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
   /opt/homebrew/include/boost/version.hpp
 
 
+/opt/homebrew/include/boost/utility/result_of.hpp:
+
+/opt/homebrew/include/boost/utility/identity_type.hpp:
+
+/opt/homebrew/include/boost/utility/enable_if.hpp:
+
+/opt/homebrew/include/boost/utility/binary.hpp:
+
+/opt/homebrew/include/boost/utility.hpp:
+
+/opt/homebrew/include/boost/unordered/unordered_set.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/serialize_fca_container.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/serialize_container.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/opt_storage.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/narrow_cast.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/bad_archive_exception.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/archive_constructed.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/allocator_constructed.hpp:
+
+/opt/homebrew/include/boost/type_traits/type_with_alignment.hpp:
+
+/opt/homebrew/include/boost/type_traits/remove_volatile.hpp:
+
+/opt/homebrew/include/boost/type_traits/remove_pointer.hpp:
+
+/opt/homebrew/include/boost/type_traits/make_void.hpp:
+
+/opt/homebrew/include/boost/type_traits/make_unsigned.hpp:
+
+/opt/homebrew/include/boost/type_traits/make_signed.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_volatile.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_void.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_unscoped_enum.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_trivially_copyable.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_signed.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_same.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_rvalue_reference.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_reference.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_polymorphic.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_pod.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_noncopyable.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_member_function_pointer.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_list_constructible.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_function.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_float.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_destructible.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_default_constructible.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_copy_constructible.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_copy_assignable.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_complete.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_class.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_assignable.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_abstract.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_virtual_destructor.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_unary_minus.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_trivial_constructor.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_trivial_assign.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_right_shift_assign.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_base_and_derived.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_right_shift.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_pre_increment.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_plus_assign.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/set.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_nothrow_copy.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_nothrow_constructor.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_nothrow_assign.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_modulus.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_logical_or.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_logical_and.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_less_equal.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_divides.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_dereference.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_bit_xor_assign.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_bit_xor.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_bit_and.hpp:
+
+/opt/homebrew/include/boost/type_traits/function_traits.hpp:
+
+/opt/homebrew/include/boost/type_traits/disjunction.hpp:
+
+/opt/homebrew/include/boost/type_traits/detail/mp_defer.hpp:
+
+/opt/homebrew/include/boost/type_traits/detail/is_swappable_cxx_11.hpp:
+
+/opt/homebrew/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
+
+/opt/homebrew/include/boost/type_traits/detail/is_function_cxx_11.hpp:
+
+/opt/homebrew/include/boost/type_traits/detail/has_prefix_operator.hpp:
+
+/opt/homebrew/include/boost/type_traits/detail/has_postfix_operator.hpp:
+
+/opt/homebrew/include/boost/type_traits/detail/config.hpp:
+
+/opt/homebrew/include/boost/type_traits/decay.hpp:
+
+/opt/homebrew/include/boost/type_traits/conversion_traits.hpp:
+
+/opt/homebrew/include/boost/type_traits/common_type.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_member_object_pointer.hpp:
+
+/opt/homebrew/include/boost/type_traits/add_pointer.hpp:
+
+/opt/homebrew/include/boost/type_traits/add_cv.hpp:
+
+/opt/homebrew/include/boost/type_traits/detail/has_binary_operator.hpp:
+
 /opt/homebrew/include/boost/system/system_error.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_unary_plus.hpp:
 
 /opt/homebrew/include/boost/system/system_category.hpp:
 
@@ -4091,27 +5199,967 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/system/error_code.hpp:
 
-/opt/homebrew/include/boost/system/errc.hpp:
-
-/opt/homebrew/include/boost/system/detail/system_category_message.hpp:
-
 /opt/homebrew/include/boost/system/detail/std_category_impl.hpp:
 
 /opt/homebrew/include/boost/system/detail/generic_category_message.hpp:
 
 /opt/homebrew/include/boost/system/detail/generic_category.hpp:
 
-/opt/homebrew/include/boost/system/detail/error_category.hpp:
-
 /opt/homebrew/include/boost/system/detail/errc.hpp:
-
-/opt/homebrew/include/boost/system/detail/enable_if.hpp:
-
-/opt/homebrew/include/boost/system/detail/cerrno.hpp:
 
 /opt/homebrew/include/boost/system/detail/append_int.hpp:
 
+/opt/homebrew/include/boost/type_traits/rank.hpp:
+
+/opt/homebrew/include/boost/type_traits/promote.hpp:
+
+/opt/homebrew/include/boost/static_assert.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/implementation.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/scoped_ptr.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_complex.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/yield_k.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/spinlock.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/sp_typeinfo_.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/opt/homebrew/include/boost/range/value_type.hpp:
+
+/opt/homebrew/include/boost/range/size.hpp:
+
+/opt/homebrew/include/boost/range/reverse_iterator.hpp:
+
+/opt/homebrew/include/boost/range/rend.hpp:
+
+/opt/homebrew/include/boost/range/mutable_iterator.hpp:
+
+/opt/homebrew/include/boost/range/iterator_range_core.hpp:
+
+/opt/homebrew/include/boost/range/irange.hpp:
+
+/opt/homebrew/include/boost/range/has_range_iterator.hpp:
+
+/opt/homebrew/include/boost/range/functions.hpp:
+
+/opt/homebrew/include/boost/range/end.hpp:
+
+/opt/homebrew/include/boost/range/detail/sfinae.hpp:
+
+/opt/homebrew/include/boost/range/detail/implementation_help.hpp:
+
+/opt/homebrew/include/boost/range/concepts.hpp:
+
+/opt/homebrew/include/boost/range/begin.hpp:
+
+/opt/homebrew/include/boost/range/algorithm/equal.hpp:
+
+/opt/homebrew/include/boost/property_map/property_map.hpp:
+
+/opt/homebrew/include/boost/preprocessor/wstringize.hpp:
+
+/opt/homebrew/include/boost/preprocessor/variadic/to_tuple.hpp:
+
+/opt/homebrew/include/boost/preprocessor/variadic/to_seq.hpp:
+
+/opt/homebrew/include/boost/type_traits/copy_reference.hpp:
+
+/opt/homebrew/include/boost/type_traits/alignment_of.hpp:
+
+/opt/homebrew/include/boost/preprocessor/variadic/has_opt.hpp:
+
+/opt/homebrew/include/boost/preprocessor/variadic/detail/is_single_return.hpp:
+
+/opt/homebrew/include/boost/preprocessor/variadic.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/to_list.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/to_array.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/size.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/reverse.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/replace.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/remove.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/rem.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/push_front.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/pop_front.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/pop_back.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/limits/to_seq_64.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/insert.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple.hpp:
+
+/opt/homebrew/include/boost/preprocessor/stringize.hpp:
+
+/opt/homebrew/include/boost/preprocessor/slot/slot.hpp:
+
+/opt/homebrew/include/boost/typeof/typeof.hpp:
+
+/opt/homebrew/include/boost/preprocessor/slot/detail/def.hpp:
+
+/opt/homebrew/include/boost/preprocessor/slot.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/transform.hpp:
+
+/opt/homebrew/include/boost/system/errc.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/to_list.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/size.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/seq.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/reverse.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/replace.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/push_front.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/push_back.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/limits/size_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/limits/elem_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/for_each_product.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/for_each_i.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/fold_right.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/first_n.hpp:
+
+/opt/homebrew/include/boost/type_traits/remove_reference.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/detail/split.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/detail/limits/split_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/detail/is_empty.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/detail/binary_transform.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq.hpp:
+
+/opt/homebrew/include/boost/preprocessor/selection.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
+/opt/homebrew/include/boost/system/detail/error_category.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/limits/for_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/for.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/enum_trailing_binary_params.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/enum_params_with_defaults.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/enum_params_with_a_default.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/enum.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/detail/limits/for_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition.hpp:
+
+/opt/homebrew/include/boost/preprocessor/punctuation/paren_if.hpp:
+
+/opt/homebrew/include/boost/preprocessor/punctuation/paren.hpp:
+
+/opt/homebrew/include/boost/preprocessor/punctuation/is_begin_parens.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/enum.hpp:
+
+/opt/homebrew/include/boost/preprocessor/punctuation/comma_if.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical/or.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical/not.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical/limits/bool_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/variadic/limits/elem_64.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical/bitor.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical/bitnor.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical/bitand.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/to_seq.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/to_array.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/fold_right.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/fold_left.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/first_n.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/filter.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/enum.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/append.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list.hpp:
+
+/opt/homebrew/include/boost/preprocessor/iteration/self.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/va_opt.hpp:
+
+/opt/homebrew/include/boost/type_traits/remove_cv.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/is_1.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/intercept.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/empty.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/detail/is_empty.hpp:
+
+/opt/homebrew/include/boost/range/detail/misc_concept.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/check_empty.hpp:
+
+/opt/homebrew/include/boost/preprocessor/detail/is_unary.hpp:
+
+/opt/homebrew/include/boost/preprocessor/detail/check.hpp:
+
+/opt/homebrew/include/boost/preprocessor/debug/line.hpp:
+
+/opt/homebrew/include/boost/preprocessor/debug/error.hpp:
+
+/opt/homebrew/include/boost/preprocessor/debug.hpp:
+
+/opt/homebrew/include/boost/preprocessor/control/while.hpp:
+
+/opt/homebrew/include/boost/preprocessor/control/iif.hpp:
+
+/opt/homebrew/include/boost/preprocessor/control/if.hpp:
+
+/opt/homebrew/include/boost/preprocessor/control/expr_iif.hpp:
+
+/opt/homebrew/include/boost/preprocessor/control/detail/while.hpp:
+
+/opt/homebrew/include/boost/preprocessor/comparison/not_equal.hpp:
+
+/opt/homebrew/include/boost/preprocessor/comparison/limits/not_equal_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/comparison/less.hpp:
+
+/opt/homebrew/include/boost/preprocessor/debug/assert.hpp:
+
+/opt/homebrew/include/boost/preprocessor/comparison/greater_equal.hpp:
+
+/opt/homebrew/include/boost/preprocessor/comparison/equal.hpp:
+
+/opt/homebrew/include/boost/preprocessor/comparison.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/map.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/to_tuple.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/to_list.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/reverse.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/replace.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/remove.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/push_front.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/insert.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/detail/get_data.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/data.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_constructible.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/mod.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/limits/inc_256.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/inc.hpp:
+
+/opt/homebrew/include/boost/preprocessor/selection/max.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/div.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/dec.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_scoped_enum.hpp:
+
+/opt/homebrew/include/boost/preprocessor.hpp:
+
+/opt/homebrew/include/boost/pending/queue.hpp:
+
+/opt/homebrew/include/boost/pending/property.hpp:
+
+/opt/homebrew/include/boost/pending/detail/property.hpp:
+
+/opt/homebrew/include/boost/parameter/name.hpp:
+
+/opt/homebrew/include/boost/parameter/keyword.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical/bool.hpp:
+
+/opt/homebrew/include/boost/parameter/config.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/void.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/use_default_tag.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/unwrap_cv_reference.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/template_keyword.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/tagged_argument_fwd.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/enum_trailing.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/tag.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/preprocessor/is_binary.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/default.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/augment_predicate.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/arg_list.hpp:
+
+/opt/homebrew/include/boost/optional/optional_fwd.hpp:
+
+/opt/homebrew/include/boost/optional/optional.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_utility.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_trivially_copyable_base.hpp:
+
+/opt/homebrew/include/boost/range/iterator_range.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_swap.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_relops.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_reference_spec.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_factory_support.hpp:
+
+/opt/homebrew/include/boost/preprocessor/punctuation/remove_parens.hpp:
+
+/opt/homebrew/include/boost/optional/bad_optional_access.hpp:
+
+/opt/homebrew/include/boost/optional.hpp:
+
+/opt/homebrew/include/boost/none_t.hpp:
+
+/opt/homebrew/include/boost/multi_index/ordered_index_fwd.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/limits/intercept_256.hpp:
+
+/opt/homebrew/include/boost/multi_index/identity_fwd.hpp:
+
+/opt/homebrew/include/boost/multi_index/identity.hpp:
+
+/opt/homebrew/include/boost/multi_index/hashed_index_fwd.hpp:
+
+/opt/homebrew/include/boost/unordered/unordered_printers.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/adt.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/vartempl_support.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/serialization_version.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/safe_mode.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/raw_ptr.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/node_type.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical/xor.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/node_handle.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/no_duplicate_tags.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/modify_key_adaptor.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_config.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/is_transparent.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/is_index_list.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/index_node_base.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/index_matcher.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/index_base.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/hash_index_iterator.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/has_tag.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/copy_map.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/converter.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/cons_stdtuple.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/bucket_array.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/bad_archive_exception.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_left_shift.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/auto_space.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/allocator_traits.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/adl_swap.hpp:
+
+/opt/homebrew/include/boost/multi_index/composite_key.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/shared_ptr.hpp:
+
+/opt/homebrew/include/boost/mpl/void.hpp:
+
+/opt/homebrew/include/boost/type_traits/same_traits.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/vector20.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/vector10.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/vector0.hpp:
+
+/opt/homebrew/include/boost/preprocessor/iteration.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/size.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/push_back.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/pack/parameter_requirements.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/include_preprocessed.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_multiplies_assign.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/front.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/empty.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/clear.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/deduce_r.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/back.hpp:
+
+/opt/homebrew/include/boost/type_traits/aligned_storage.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/at.hpp:
+
+/opt/homebrew/include/boost/mpl/value_type_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/tag.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_nothrow_destructor.hpp:
+
+/opt/homebrew/include/boost/mpl/size_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/value_type_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/size_impl.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/cat.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/key_type_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/item.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/erase_impl.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_enum.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/empty_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/sequence_tag.hpp:
+
+/opt/homebrew/include/boost/mpl/reverse_fold.hpp:
+
+/opt/homebrew/include/boost/mpl/quote.hpp:
+
+/opt/homebrew/include/boost/mpl/push_front.hpp:
+
+/opt/homebrew/include/boost/mpl/push_back_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/push_back.hpp:
+
+/opt/homebrew/include/boost/mpl/protect.hpp:
+
+/opt/homebrew/include/boost/mpl/prior.hpp:
+
+/opt/homebrew/include/boost/mpl/pop_back_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/pair_view.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/overload.hpp:
+
+/opt/homebrew/include/boost/mpl/next_prior.hpp:
+
+/opt/homebrew/include/boost/mpl/negate.hpp:
+
+/opt/homebrew/include/boost/mpl/minus.hpp:
+
+/opt/homebrew/include/boost/mpl/min_max.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/size.hpp:
+
+/opt/homebrew/include/boost/mpl/long.hpp:
+
+/opt/homebrew/include/boost/mpl/logical.hpp:
+
+/opt/homebrew/include/boost/mpl/limits/vector.hpp:
+
+/opt/homebrew/include/boost/mpl/limits/arity.hpp:
+
+/opt/homebrew/include/boost/mpl/less.hpp:
+
+/opt/homebrew/include/boost/mpl/lambda.hpp:
+
+/opt/homebrew/include/boost/mpl/iterator_range.hpp:
+
+/opt/homebrew/include/boost/mpl/iterator_category.hpp:
+
+/opt/homebrew/include/boost/mpl/iter_fold_if.hpp:
+
+/opt/homebrew/include/boost/mpl/iter_fold.hpp:
+
+/opt/homebrew/include/boost/mpl/is_sequence.hpp:
+
+/opt/homebrew/include/boost/mpl/integral_c_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/int_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/int.hpp:
+
+/opt/homebrew/include/boost/mpl/inserter.hpp:
+
+/opt/homebrew/include/boost/mpl/insert_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/insert.hpp:
+
+/opt/homebrew/include/boost/mpl/identity.hpp:
+
+/opt/homebrew/include/boost/mpl/has_xxx.hpp:
+
+/opt/homebrew/include/boost/mpl/front_inserter.hpp:
+
+/opt/homebrew/include/boost/mpl/front_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/fold.hpp:
+
+/opt/homebrew/include/boost/mpl/find_if.hpp:
+
+/opt/homebrew/include/boost/mpl/find.hpp:
+
+/opt/homebrew/include/boost/mpl/eval_if.hpp:
+
+/opt/homebrew/include/boost/mpl/erase_key_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/erase_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/empty_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/distance.hpp:
+
+/opt/homebrew/include/boost/mpl/deref.hpp:
+
+/opt/homebrew/include/boost/mpl/contains_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/bind_fwd.hpp:
+
+/opt/homebrew/include/boost/unordered_set.hpp:
+
+/opt/homebrew/include/boost/mpl/begin_end.hpp:
+
+/opt/homebrew/include/boost/mpl/back_fwd.hpp:
+
+/opt/homebrew/include/boost/system/detail/cerrno.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/value_wknd.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/template_arity.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/static_cast.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/reverse_fold_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/ptr_to_ref.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+/opt/homebrew/include/boost/mpl/integral_c_tag.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_modulus_assign.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_less.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/overload_names.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/nttp_decl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/largest_int.hpp:
+
+/opt/homebrew/include/boost/mpl/lambda_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/iter_fold_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/iter_fold_if_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/integral_wrapper.hpp:
+
+/opt/homebrew/include/boost/multi_index_container.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/inserter_algorithm.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/has_type.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/has_size.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/begin_end.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/full_lambda.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/fold_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/find_if_pred.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/empty_impl.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/limits/enum_256.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/use_preprocessed.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/typeof.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/ttp.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/opt/homebrew/include/boost/shared_array.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/pop_front.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/erase_key_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/operators.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/has_tag.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/nttp.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/msvc.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/integral.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/push_back.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/has_apply.hpp:
+
+/opt/homebrew/include/boost/preprocessor/variadic/size.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/gpu.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/dtp.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/bind.hpp:
+
+/opt/homebrew/include/boost/preprocessor/logical.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/bcc.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/arrays.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/begin_end_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/at_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/arity_spec.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/type_wrapper.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/arity.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/arithmetic_op.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/arg_typedef.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/base_type.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/adl_barrier.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/O1_size_impl.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_greater_equal.hpp:
+
+/opt/homebrew/include/boost/mpl/at.hpp:
+
+/opt/homebrew/include/boost/mpl/assert.hpp:
+
+/opt/homebrew/include/boost/mpl/and.hpp:
+
+/opt/homebrew/include/boost/mpl/always.hpp:
+
+/opt/homebrew/include/boost/mpl/advance.hpp:
+
+/opt/homebrew/include/boost/mpl/O1_size_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/tag.hpp:
+
+/opt/homebrew/include/boost/move/detail/meta_utils_core.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities/expand.hpp:
+
+/opt/homebrew/include/boost/move/detail/config_end.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_equal_to.hpp:
+
+/opt/homebrew/include/boost/move/detail/config_begin.hpp:
+
+/opt/homebrew/include/boost/limits.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/enum.hpp:
+
+/opt/homebrew/include/boost/iterator/reverse_iterator.hpp:
+
+/opt/homebrew/include/boost/iterator/iterator_facade.hpp:
+
+/opt/homebrew/include/boost/mpl/O1_size.hpp:
+
+/opt/homebrew/include/boost/iterator/iterator_concepts.hpp:
+
+/opt/homebrew/include/boost/preprocessor/comparison/greater.hpp:
+
+/opt/homebrew/include/boost/iterator/iterator_categories.hpp:
+
+/opt/homebrew/include/boost/iterator/iterator_adaptor.hpp:
+
+/opt/homebrew/include/boost/iterator/is_iterator.hpp:
+
+/opt/homebrew/include/boost/iterator/detail/type_traits/negation.hpp:
+
+/opt/homebrew/include/boost/iterator/detail/type_traits/disjunction.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/shared_array.hpp:
+
+/opt/homebrew/include/boost/iterator/detail/eval_if_default.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/opt/homebrew/include/boost/iterator/detail/config_undef.hpp:
+
+/opt/homebrew/include/boost/iterator/advance.hpp:
+
+/opt/homebrew/include/boost/graph/visitors.hpp:
+
+/opt/homebrew/include/boost/graph/relax.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_aligned_storage.hpp:
+
+/opt/homebrew/include/boost/graph/property_maps/null_property_map.hpp:
+
+/opt/homebrew/include/boost/utility/base_from_member.hpp:
+
+/opt/homebrew/include/boost/none.hpp:
+
+/opt/homebrew/include/boost/graph/numeric_values.hpp:
+
+/opt/homebrew/include/boost/graph/named_function_params.hpp:
+
+/opt/homebrew/include/boost/graph/graph_traits.hpp:
+
+/opt/homebrew/include/boost/graph/graph_mutability_traits.hpp:
+
+/opt/homebrew/include/boost/graph/graph_concepts.hpp:
+
+/opt/homebrew/include/boost/graph/detail/empty_header.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/iterator.hpp:
+
+/opt/homebrew/include/boost/graph/detail/edge.hpp:
+
+/opt/homebrew/include/boost/graph/buffer_concepts.hpp:
+
+/opt/homebrew/include/boost/graph/adjacency_list.hpp:
+
+/opt/homebrew/include/boost/system/detail/enable_if.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/pop_front.hpp:
+
+/opt/homebrew/include/boost/detail/call_traits.hpp:
+
+/opt/homebrew/include/boost/core/yield_primitives.hpp:
+
+/opt/homebrew/include/boost/core/serialization.hpp:
+
+/opt/homebrew/include/boost/core/ref.hpp:
+
+/opt/homebrew/include/boost/core/pointer_traits.hpp:
+
+/opt/homebrew/include/boost/core/noncopyable.hpp:
+
+/opt/homebrew/include/boost/parameter/binding.hpp:
+
+/opt/homebrew/include/boost/core/no_exceptions_support.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/scope_guard.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/item.hpp:
+
+/opt/homebrew/include/boost/core/enable_if.hpp:
+
+/opt/homebrew/include/boost/core/empty_value.hpp:
+
+/opt/homebrew/include/boost/core/detail/sp_thread_yield.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/clear_impl.hpp:
+
+/opt/homebrew/include/boost/core/bit.hpp:
+
+/opt/homebrew/include/boost/core/allocator_traits.hpp:
+
+/opt/homebrew/include/boost/system/detail/system_category_message.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/static_constant.hpp:
+
+/opt/homebrew/include/boost/core/allocator_access.hpp:
+
+/opt/homebrew/include/boost/graph/two_bit_color_map.hpp:
+
+/opt/homebrew/include/boost/core/addressof.hpp:
+
+/opt/homebrew/include/boost/config/pragma_message.hpp:
+
+/opt/homebrew/include/boost/concept_check.hpp:
+
+/opt/homebrew/include/boost/concept_archetype.hpp:
+
+/opt/homebrew/include/boost/concept/usage.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_swappable.hpp:
+
+/opt/homebrew/include/boost/concept/detail/has_constraints.hpp:
+
+/opt/homebrew/include/boost/concept/detail/general.hpp:
+
+/opt/homebrew/include/boost/concept/detail/concept_undef.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/insert_impl.hpp:
+
+/opt/homebrew/include/boost/concept/detail/concept_def.hpp:
+
+/opt/homebrew/include/boost/concept/detail/backward_compatibility.hpp:
+
+/opt/homebrew/include/boost/concept/assert.hpp:
+
 /opt/homebrew/include/boost/asio/write.hpp:
+
+/opt/homebrew/include/boost/iterator/detail/facade_iterator_category.hpp:
 
 /opt/homebrew/include/boost/asio/windows/stream_handle.hpp:
 
@@ -4125,23 +6173,35 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/windows/basic_random_access_handle.hpp:
 
+/opt/homebrew/include/boost/multi_index/detail/promotes_arg.hpp:
+
 /opt/homebrew/include/boost/asio/wait_traits.hpp:
 
 /opt/homebrew/include/boost/asio/uses_executor.hpp:
+
+/opt/homebrew/include/boost/multi_index_container_fwd.hpp:
 
 /opt/homebrew/include/boost/asio/use_awaitable.hpp:
 
 /opt/homebrew/include/boost/asio/traits/require_member.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/lambda_support.hpp:
+
 /opt/homebrew/include/boost/asio/traits/require_concept_member.hpp:
 
 /opt/homebrew/include/boost/asio/traits/require_concept_free.hpp:
 
+/opt/homebrew/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp:
+
 /opt/homebrew/include/boost/asio/traits/query_member.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_compound.hpp:
 
 /opt/homebrew/include/boost/asio/traits/prefer_free.hpp:
 
 /opt/homebrew/include/boost/asio/system_timer.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/elem.hpp:
 
 /opt/homebrew/include/boost/asio/system_context.hpp:
 
@@ -4161,6 +6221,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/readable_pipe.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
 /opt/homebrew/include/boost/asio/read_at.hpp:
 
 /opt/homebrew/include/boost/asio/read.hpp:
@@ -4175,6 +6237,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/posix/descriptor_base.hpp:
 
+/opt/homebrew/include/boost/type_traits/copy_cv.hpp:
+
 /opt/homebrew/include/boost/asio/posix/descriptor.hpp:
 
 /opt/homebrew/include/boost/asio/posix/basic_stream_descriptor.hpp:
@@ -4185,11 +6249,17 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/multiple_exceptions.hpp:
 
+/opt/homebrew/include/boost/range/iterator.hpp:
+
 /opt/homebrew/include/boost/asio/local/stream_protocol.hpp:
 
 /opt/homebrew/include/boost/asio/local/seq_packet_protocol.hpp:
 
 /opt/homebrew/include/boost/asio/local/detail/impl/endpoint.ipp:
+
+/opt/homebrew/include/boost/range/range_fwd.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array/enum.hpp:
 
 /opt/homebrew/include/boost/asio/local/basic_endpoint.hpp:
 
@@ -4211,6 +6281,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/ip/multicast.hpp:
 
+/opt/homebrew/include/boost/mpl/apply_wrap.hpp:
+
 /opt/homebrew/include/boost/asio/ip/impl/network_v6.ipp:
 
 /opt/homebrew/include/boost/asio/ip/impl/network_v4.ipp:
@@ -4219,13 +6291,23 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/system/is_error_code_enum.hpp:
 
+/opt/homebrew/include/boost/preprocessor/logical/compl.hpp:
+
 /opt/homebrew/include/boost/asio/ip/impl/host_name.ipp:
 
+/opt/homebrew/include/boost/type_traits/is_nothrow_move_assignable.hpp:
+
 /opt/homebrew/include/boost/asio/ip/impl/basic_endpoint.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/na_fwd.hpp:
 
 /opt/homebrew/include/boost/asio/ip/impl/address_v4.ipp:
 
 /opt/homebrew/include/boost/asio/ip/impl/address_v4.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/transform.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/set0.hpp:
 
 /opt/homebrew/include/boost/asio/ip/impl/address.hpp:
 
@@ -4243,21 +6325,43 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/ip/basic_resolver_query.hpp:
 
+/opt/homebrew/include/boost/preprocessor/seq/rest_n.hpp:
+
 /opt/homebrew/include/boost/asio/ip/basic_resolver_entry.hpp:
 
 /opt/homebrew/include/boost/asio/ip/bad_address_cast.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/push_back_impl.hpp:
+
 /opt/homebrew/include/boost/asio/ip/address_v4_range.hpp:
+
+/opt/homebrew/include/boost/preprocessor/punctuation.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/contains_impl.hpp:
 
 /opt/homebrew/include/boost/asio/ip/address_v4.hpp:
 
+/opt/homebrew/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
+
+/opt/homebrew/include/boost/asio/io_context.hpp:
+
+/opt/homebrew/include/boost/parameter/value_type.hpp:
+
 /opt/homebrew/include/boost/asio/impl/write_at.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
+/opt/homebrew/include/boost/asio/impl/write.hpp:
 
-/opt/homebrew/include/boost/asio/detail/resolve_op.hpp:
+/opt/homebrew/include/boost/type_traits/enable_if.hpp:
 
-/opt/homebrew/include/boost/asio/impl/use_awaitable.hpp:
+/opt/homebrew/include/boost/mpl/or.hpp:
+
+/opt/homebrew/include/boost/mpl/contains.hpp:
+
+/opt/homebrew/include/boost/asio/impl/use_future.hpp:
+
+/opt/homebrew/include/boost/asio/impl/thread_pool.ipp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
 
 /opt/homebrew/include/boost/asio/impl/thread_pool.hpp:
 
@@ -4357,11 +6461,17 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/detail/socket_ops.hpp:
 
+/opt/homebrew/include/boost/mpl/if.hpp:
+
 /opt/homebrew/include/boost/asio/detail/signal_set_service.hpp:
 
 /opt/homebrew/include/boost/asio/detail/signal_handler.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/has_apply.hpp:
+
 /opt/homebrew/include/boost/asio/detail/scoped_lock.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/is_placeholder.hpp:
 
 /opt/homebrew/include/boost/asio/detail/scheduler_task.hpp:
 
@@ -4374,6 +6484,10 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_default_constructible.h:
 
 /opt/homebrew/include/boost/asio/detail/reactive_wait_op.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/fold_left.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/has_key_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/__xlocale.h:
 
@@ -4405,6 +6519,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/detail/posix_static_mutex.hpp:
 
+/opt/homebrew/include/boost/preprocessor/arithmetic/sub.hpp:
+
 /opt/homebrew/include/boost/asio/detail/posix_global.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/dangling.h:
@@ -4414,6 +6530,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 /opt/homebrew/include/boost/asio/detail/posix_event.hpp:
 
 /opt/homebrew/include/boost/asio/detail/pipe_select_interrupter.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/lambda_spec.hpp:
 
 /opt/homebrew/include/boost/asio/generic/detail/endpoint.hpp:
 
@@ -4427,6 +6545,10 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/execution/occupancy.hpp:
 
+/opt/homebrew/include/boost/multi_index/detail/invalidate_iterators.hpp:
+
+/opt/homebrew/include/boost/mpl/at_fwd.hpp:
+
 /opt/homebrew/include/boost/asio/execution/invocable_archetype.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/stable_sort.h:
@@ -4437,15 +6559,21 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/detail/kqueue_reactor.hpp:
 
+/opt/homebrew/include/boost/preprocessor/arithmetic/mul.hpp:
+
 /opt/homebrew/include/boost/asio/detail/keyword_tss_ptr.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/numeric_op.hpp:
+
+/opt/homebrew/include/boost/asio/ip/address.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/ostream.h:
 
-/opt/homebrew/include/boost/asio/ip/address.hpp:
-
 /opt/homebrew/include/boost/asio/detail/is_executor.hpp:
+
+/opt/homebrew/include/boost/core/detail/sp_thread_pause.hpp:
 
 /opt/homebrew/include/boost/asio/detail/io_object_impl.hpp:
 
@@ -4454,6 +6582,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 /opt/homebrew/include/boost/asio/detail/io_control.hpp:
 
 /opt/homebrew/include/boost/asio/detail/initiation_base.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/to_seq.hpp:
 
 /opt/homebrew/include/boost/asio/detail/initiate_post.hpp:
 
@@ -4475,7 +6605,11 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/detail/impl/socket_ops.ipp:
 
+/opt/homebrew/include/boost/type_traits/is_final.hpp:
+
 /opt/homebrew/include/boost/asio/detail/impl/reactive_descriptor_service.ipp:
+
+/opt/homebrew/include/boost/type_traits/has_not_equal_to.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
@@ -4487,19 +6621,27 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/detail/impl/posix_mutex.ipp:
 
+/opt/homebrew/include/boost/mpl/aux_/preprocessor/params.hpp:
+
 /opt/homebrew/include/boost/asio/detail/impl/null_event.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/shared_mutex:
 
 /opt/homebrew/include/boost/asio/detail/impl/kqueue_reactor.ipp:
 
+/opt/homebrew/include/boost/mpl/vector/vector0.hpp:
+
 /opt/homebrew/include/boost/asio/detail/impl/kqueue_reactor.hpp:
 
 /opt/homebrew/include/boost/asio/detail/impl/handler_tracking.ipp:
 
+/opt/homebrew/include/boost/preprocessor/array/pop_front.hpp:
+
 /opt/homebrew/include/boost/asio/impl/awaitable.ipp:
 
 /opt/homebrew/include/boost/asio/detail/impl/buffer_sequence_adapter.ipp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/eti.hpp:
 
 /opt/homebrew/include/boost/asio/detail/handler_work.hpp:
 
@@ -4519,6 +6661,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/detail/fenced_block.hpp:
 
+/opt/homebrew/include/boost/smart_ptr/detail/local_counted_base.hpp:
+
 /opt/homebrew/include/boost/asio/detail/executor_op.hpp:
 
 /opt/homebrew/include/boost/asio/detail/chrono.hpp:
@@ -4537,9 +6681,13 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/detail/consuming_buffers.hpp:
 
+/opt/homebrew/include/boost/multi_index/detail/archive_constructed.hpp:
+
 /opt/homebrew/include/boost/asio/detail/completion_payload_handler.hpp:
 
 /opt/homebrew/include/boost/asio/impl/connect_pipe.ipp:
+
+/opt/homebrew/include/boost/unordered/unordered_map_fwd.hpp:
 
 /opt/homebrew/include/boost/asio/detail/config.hpp:
 
@@ -4549,15 +6697,17 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/detail/conditionally_enabled_event.hpp:
 
+/opt/homebrew/include/boost/graph/exception.hpp:
+
 /opt/homebrew/include/boost/asio/detail/concurrency_hint.hpp:
 
 /opt/homebrew/include/boost/asio/detail/signal_blocker.hpp:
 
+/opt/homebrew/include/boost/unordered/detail/fca.hpp:
+
 /opt/homebrew/include/boost/uuid/string_generator.hpp:
 
 /opt/homebrew/include/boost/asio/detail/completion_payload.hpp:
-
-/opt/homebrew/include/boost/asio/impl/write.hpp:
 
 /opt/homebrew/include/boost/asio/detail/chrono_time_traits.hpp:
 
@@ -4575,6 +6725,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/impl/cancellation_signal.ipp:
 
+/opt/homebrew/include/boost/iterator/detail/type_traits/conjunction.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/rank.h:
 
 /opt/homebrew/include/boost/asio/deferred.hpp:
@@ -4589,11 +6741,15 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/compose.hpp:
 
+/opt/homebrew/include/boost/preprocessor/repetition/enum_binary_params.hpp:
+
 /opt/homebrew/include/boost/asio/completion_condition.hpp:
 
 /opt/homebrew/include/boost/asio/cancel_at.hpp:
 
 /opt/homebrew/include/boost/asio/detail/impl/throw_error.ipp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/tag.hpp:
 
 /opt/homebrew/include/boost/asio/buffers_iterator.hpp:
 
@@ -4619,6 +6775,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/basic_waitable_timer.hpp:
 
+/opt/homebrew/include/boost/mpl/vector.hpp:
+
 /opt/homebrew/include/boost/asio/basic_stream_file.hpp:
 
 /opt/homebrew/include/boost/asio/detail/reactor.hpp:
@@ -4641,13 +6799,15 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/asio/associator.hpp:
 
+/opt/homebrew/include/boost/preprocessor/detail/is_binary.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/ord_index_args.hpp:
+
 /opt/homebrew/include/boost/asio/associated_immediate_executor.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
-
-/opt/homebrew/include/boost/asio/associated_executor.hpp:
-
 /opt/homebrew/include/boost/asio/associated_cancellation_slot.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/insert.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
@@ -4658,6 +6818,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/print:
 
 /opt/homebrew/include/boost/asio/any_io_executor.hpp:
+
+/opt/homebrew/include/boost/preprocessor/selection/min.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_nullptr_t.h:
 
@@ -4671,8 +6833,6 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/termios.h:
 
-/opt/homebrew/include/boost/asio/impl/use_future.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/ttydefaults.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/add_const.h:
@@ -4680,6 +6840,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/ttycom.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/termios.h:
+
+/opt/homebrew/include/boost/mpl/set/aux_/has_key_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/stat.h:
 
@@ -4703,6 +6865,10 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_filesec_t.h:
 
+/opt/homebrew/include/boost/type_traits/has_minus_assign.hpp:
+
+/opt/homebrew/include/boost/preprocessor/identity.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/poll.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_mode_t.h:
@@ -4715,6 +6881,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/netdb.h:
 
+/opt/homebrew/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/net/net_kev.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/net/if_var.h:
@@ -4722,6 +6890,12 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/locale:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/machine/_param.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
+
+/opt/homebrew/include/boost/asio/associated_executor.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/map:
 
 /opt/homebrew/include/boost/asio/detail/impl/scheduler.ipp:
 
@@ -4736,6 +6910,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/reverse_view.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/rend.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tree:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/range_adaptor.h:
 
@@ -4755,6 +6931,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/istream_view.h:
 
+/opt/homebrew/include/boost/type_traits/has_bit_and_assign.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/iota_view.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/empty_view.h:
@@ -4765,6 +6943,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/drop_while_view.h:
 
+/opt/homebrew/include/boost/move/utility_core.hpp:
+
 /opt/homebrew/include/boost/asio/impl/system_executor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_stdio.h:
@@ -4773,21 +6953,41 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/common_view.h:
 
-/opt/homebrew/include/boost/asio/io_context.hpp:
+/opt/homebrew/include/boost/mpl/sequence_tag_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/all.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/unsynchronized_pool_resource.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/synchronized_pool_resource.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/pool_options.h:
+
+/opt/homebrew/include/boost/preprocessor/comma_if.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/max.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory_resource/monotonic_buffer_resource.h:
+
+/opt/homebrew/include/boost/graph/detail/adj_list_edge_iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/iterator_with_data.h:
+
+/opt/homebrew/include/boost/type_traits/has_plus.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/tuple.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/span.h:
+
+/opt/homebrew/include/boost/preprocessor/seq/remove.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/arpa/inet.h:
 
 /Users/dutchcaz/Projects/uav-swarm-coordinator/src/adapters/net_sim_asio.cpp:
 
 /opt/homebrew/include/boost/uuid/uuid_io.hpp:
+
+/opt/homebrew/include/boost/preprocessor/cat.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___gnuc_va_list.h:
 
@@ -4806,6 +7006,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 /opt/homebrew/include/boost/uuid/nil_generator.hpp:
 
 /opt/homebrew/include/boost/uuid/namespaces.hpp:
+
+/opt/homebrew/include/boost/preprocessor/empty.hpp:
 
 /opt/homebrew/include/boost/uuid/name_generator_sha1.hpp:
 
@@ -4827,25 +7029,39 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/uuid/detail/random_device.hpp:
 
+/opt/homebrew/include/boost/type_traits/has_multiplies.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/array.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
 
 /opt/homebrew/include/boost/uuid/detail/hash_mix.hpp:
 
+/opt/homebrew/include/boost/mpl/begin_end_fwd.hpp:
+
 /opt/homebrew/include/boost/uuid/detail/config.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/na_assert.hpp:
 
 /opt/homebrew/include/boost/asio/detail/executor_function.hpp:
 
 /opt/homebrew/include/boost/throw_exception.hpp:
 
+/opt/homebrew/include/boost/multi_index/detail/header_holder.hpp:
+
 /opt/homebrew/include/boost/asio/detail/timed_cancel_op.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_lvalue_reference.hpp:
 
 /opt/homebrew/include/boost/mp11/list.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_suseconds_t.h:
 
 /opt/homebrew/include/boost/mp11/integral.hpp:
+
+/opt/homebrew/include/boost/multi_index/tag.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
 
@@ -4859,6 +7075,8 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/mp11/detail/mp_with_index.hpp:
 
+/opt/homebrew/include/boost/mpl/transform.hpp:
+
 /opt/homebrew/include/boost/asio/detail/impl/service_registry.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
@@ -4869,15 +7087,21 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/mp11/detail/mp_remove_if.hpp:
 
+/opt/homebrew/include/boost/type_traits/negation.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/readable_traits.h:
 
 /opt/homebrew/include/boost/mp11/detail/mp_plus.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/clear_impl.hpp:
 
 /opt/homebrew/include/boost/mp11/detail/mp_min_element.hpp:
 
 /opt/homebrew/include/boost/mp11/detail/mp_map_find.hpp:
 
 /opt/homebrew/include/boost/mp11/detail/mp_list_v.hpp:
+
+/opt/homebrew/include/boost/graph/iteration_macros.hpp:
 
 /opt/homebrew/include/boost/mp11/detail/mp_is_value_list.hpp:
 
@@ -4895,6 +7119,10 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/mp11/detail/mp_copy_if.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/numeric_cast_utils.hpp:
+
 /opt/homebrew/include/boost/asio/generic/detail/impl/endpoint.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_types.h:
@@ -4911,19 +7139,33 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/exception/exception.hpp:
 
+/opt/homebrew/include/boost/preprocessor/inc.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/insert_impl.hpp:
+
 /opt/homebrew/include/boost/describe/detail/void_t.hpp:
+
+/opt/homebrew/include/boost/preprocessor/config/config.hpp:
 
 /opt/homebrew/include/boost/asio/basic_writable_pipe.hpp:
 
 /opt/homebrew/include/boost/describe/bases.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
+
 /opt/homebrew/include/boost/cstdint.hpp:
 
 /opt/homebrew/include/boost/container_hash/is_unordered_range.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/config/forwarding.hpp:
+
 /opt/homebrew/include/boost/container_hash/hash_fwd.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp:
+
 /opt/homebrew/include/boost/asio/detail/posix_thread.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_nothrow_move_constructible.hpp:
 
 /opt/homebrew/include/boost/container_hash/hash.hpp:
 
@@ -4933,9 +7175,13 @@ CMakeFiles/swarmgrid_adapters.dir/src/adapters/net_sim_asio.cpp.o: /Users/dutchc
 
 /opt/homebrew/include/boost/container_hash/detail/hash_range.hpp:
 
+/opt/homebrew/include/boost/range/detail/common.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform.h:
 
 /opt/homebrew/include/boost/asio/impl/detached.hpp:
+
+/opt/homebrew/include/boost/preprocessor/iteration/iterate.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__filesystem/space_info.h:
 
@@ -4973,6 +7219,8 @@ _deps/spdlog-src/include/spdlog/common.h:
 
 _deps/spdlog-src/include/spdlog/tweakme.h:
 
+/opt/homebrew/include/boost/mpl/empty.hpp:
+
 _deps/spdlog-src/include/spdlog/logger.h:
 
 _deps/spdlog-src/include/spdlog/details/periodic_worker.h:
@@ -4980,6 +7228,8 @@ _deps/spdlog-src/include/spdlog/details/periodic_worker.h:
 /opt/homebrew/include/boost/asio/basic_streambuf.hpp:
 
 _deps/spdlog-src/include/spdlog/details/null_mutex.h:
+
+/opt/homebrew/include/boost/preprocessor/seq/variadic_seq_to_seq.hpp:
 
 /opt/homebrew/include/boost/asio/execution/outstanding_work.hpp:
 
@@ -4991,9 +7241,15 @@ _deps/spdlog-src/include/spdlog/details/circular_q.h:
 
 /opt/homebrew/include/boost/asio/detail/wrapped_handler.hpp:
 
+/opt/homebrew/include/boost/parameter/is_argument_pack.hpp:
+
 _deps/spdlog-src/include/spdlog/details/backtracer.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_ptrdiff_t.h:
+
+/opt/homebrew/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+
+/opt/homebrew/include/boost/preprocessor/control/detail/limits/while_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_offsetof.h:
 
@@ -5003,15 +7259,23 @@ _deps/spdlog-src/include/spdlog/details/backtracer.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_null.h:
 
+/opt/homebrew/include/boost/type_traits/add_const.hpp:
+
 _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
+
+/opt/homebrew/include/boost/iterator/interoperable.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_max_align_t.h:
 
+/opt/homebrew/include/boost/mpl/aux_/traits_lambda_spec.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_header_macro.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h:
+
+/opt/homebrew/include/boost/preprocessor/list/for_each_product.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_header_macro.h:
 
@@ -5028,6 +7292,8 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/xlocale/_wchar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/xlocale/_string.h:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/add.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/net/if.h:
 
@@ -5047,9 +7313,13 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/wait.h:
 
+/opt/homebrew/include/boost/range/detail/has_member_size.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/types.h:
 
 /opt/homebrew/include/boost/asio/coroutine.hpp:
+
+/opt/homebrew/include/boost/unordered/detail/static_assert.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/fcntl.h:
 
@@ -5057,7 +7327,13 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 
 /opt/homebrew/include/boost/asio/detail/thread.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/config/lambda.hpp:
+
+/opt/homebrew/include/boost/mpl/apply_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/stdio.h:
+
+/opt/homebrew/include/boost/mpl/has_key.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/signal.h:
 
@@ -5097,7 +7373,13 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h:
 
+/opt/homebrew/include/boost/mpl/pair.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_timeval.h:
+
+/opt/homebrew/include/boost/type_traits/is_stateless.hpp:
+
+/opt/homebrew/include/boost/preprocessor/array.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_time_t.h:
 
@@ -5107,9 +7389,21 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_size_t.h:
 
+/opt/homebrew/include/boost/asio/impl/use_awaitable.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
+
+/opt/homebrew/include/boost/asio/detail/resolve_op.hpp:
+
+/opt/homebrew/include/boost/preprocessor/facilities.hpp:
+
 /opt/homebrew/include/boost/asio/awaitable.hpp:
 
+/opt/homebrew/include/boost/type_traits/has_greater.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/opt/homebrew/include/boost/preprocessor/logical/and.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/concepts.h:
 
@@ -5117,15 +7411,25 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_sigaltstack.h:
 
+/opt/homebrew/include/boost/mpl/vector/aux_/iterator.hpp:
+
 /opt/homebrew/include/boost/asio/detail/strand_executor_service.hpp:
+
+/opt/homebrew/include/boost/type_traits/is_integral.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__stop_token/stop_source.h:
 
 /opt/homebrew/include/boost/asio/detail/bind_handler.hpp:
 
+/opt/homebrew/include/boost/type_traits/add_rvalue_reference.hpp:
+
 /opt/homebrew/include/boost/container_hash/is_range.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_rune_t.h:
+
+/opt/homebrew/include/boost/type_traits/has_logical_not.hpp:
+
+/opt/homebrew/include/boost/mpl/set/aux_/at_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_pid_t.h:
 
@@ -5143,11 +7447,15 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_ino64_t.h:
 
+/opt/homebrew/include/boost/mpl/vector/aux_/pop_back.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_id_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
+
+/opt/homebrew/include/boost/type_traits/is_union.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
@@ -5181,6 +7489,8 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 
 /opt/homebrew/include/boost/asio/detail/completion_message.hpp:
 
+/opt/homebrew/include/boost/type_traits/is_convertible.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/hash.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_ct_rune_t.h:
@@ -5193,6 +7503,8 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 
 /opt/homebrew/include/boost/uuid/detail/to_chars.hpp:
 
+/opt/homebrew/include/boost/preprocessor/seq/subseq.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /opt/homebrew/include/boost/asio/immediate.hpp:
@@ -5200,6 +7512,10 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/format.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/opt/homebrew/include/boost/preprocessor/punctuation/comma.hpp:
+
+/opt/homebrew/include/boost/mpl/plus.hpp:
 
 _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
@@ -5211,7 +7527,11 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
+/opt/homebrew/include/boost/mpl/back_inserter.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_pthread/_pthread_t.h:
+
+/opt/homebrew/include/boost/multi_index/detail/hash_index_args.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
@@ -5220,6 +7540,8 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/appleapiopts.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/opt/homebrew/include/boost/preprocessor/repetition/enum_shifted_binary_params.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
@@ -5233,6 +7555,8 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/stdio.h:
 
+/opt/homebrew/include/boost/type_traits/is_unsigned.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/runetype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h:
@@ -5241,9 +7565,13 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/pthread.h:
 
+/opt/homebrew/include/boost/mpl/not.hpp:
+
 /opt/homebrew/include/boost/container_hash/detail/hash_tuple_like.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/nl_types.h:
+
+/opt/homebrew/include/boost/utility/detail/result_of_variadic.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h:
 
@@ -5252,8 +7580,6 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 /Users/dutchcaz/Projects/uav-swarm-coordinator/src/adapters/metrics_writer.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/malloc/_malloc.h:
-
-/opt/homebrew/include/boost/asio/impl/thread_pool.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/gethostuuid.h:
 
@@ -5267,6 +7593,8 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/machine/_types.h:
 
+/opt/homebrew/include/boost/type_traits/remove_bounds.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/cstddef:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/machine/_mcontext.h:
@@ -5278,6 +7606,8 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/mach/machine/_structs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/mach/arm/_structs.h:
+
+/opt/homebrew/include/boost/graph/overloading.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/locale.h:
 
@@ -5343,11 +7673,15 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/stddef.h:
 
+/opt/homebrew/include/boost/iterator/detail/config_def.hpp:
+
 /opt/homebrew/include/boost/asio/basic_stream_socket.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/stack:
 
 /opt/homebrew/include/boost/asio/detail/completion_handler.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/ctps.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__string/extern_template_lists.h:
 
@@ -5365,6 +7699,8 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/semaphore:
 
+/opt/homebrew/include/boost/preprocessor/repetition/detail/for.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/random:
 
 /opt/homebrew/include/boost/asio/detail/work_dispatcher.hpp:
@@ -5373,7 +7709,11 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /opt/homebrew/include/boost/asio/handler_continuation_hook.hpp:
 
+/opt/homebrew/include/boost/type_traits/has_bit_or_assign.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/optional:
+
+/opt/homebrew/include/boost/core/detail/sp_thread_sleep.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/normal_distribution.h:
 
@@ -5381,11 +7721,17 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/new:
 
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/mutex:
+
+/opt/homebrew/include/boost/preprocessor/seq/filter.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/memory:
 
 /opt/homebrew/include/boost/config/stdlib/libcpp.hpp:
+
+/opt/homebrew/include/boost/core/use_default.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_allocator.h:
 
@@ -5395,11 +7741,17 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/latch:
 
+/opt/homebrew/include/boost/property_map/vector_property_map.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_posix_vdisable.h:
 
 /opt/homebrew/include/boost/asio/execution/context.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/__endian.h:
+
+/opt/homebrew/include/boost/range/rbegin.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/template_arity_fwd.hpp:
 
 /opt/homebrew/include/boost/asio/detail/regex_fwd.hpp:
 
@@ -5407,7 +7759,11 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/iomanip:
 
+/opt/homebrew/include/boost/type_traits/has_trivial_destructor.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/initializer_list:
+
+/opt/homebrew/include/boost/type_traits/has_trivial_move_assign.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/errno.h:
 
@@ -5423,15 +7779,23 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_u_int.h:
 
+/opt/homebrew/include/boost/preprocessor/variadic/elem.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/cwchar:
+
+/opt/homebrew/include/boost/mpl/set/aux_/begin_end_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_mbstate_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/ctype.h:
 
+/opt/homebrew/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/ctime:
+
+/opt/homebrew/include/boost/preprocessor/seq/limits/fold_left_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/cstring:
 
@@ -5459,6 +7823,8 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/complex:
 
+/opt/homebrew/include/boost/unordered/detail/serialization_version.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
@@ -5474,6 +7840,10 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 /opt/homebrew/include/boost/asio/detail/is_buffer_sequence.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/clocale:
+
+/opt/homebrew/include/boost/range/distance.hpp:
+
+/opt/homebrew/include/boost/mpl/reverse_iter_fold.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/__wctype.h:
 
@@ -5515,6 +7885,8 @@ _deps/spdlog-src/include/spdlog/details/synchronous_factory.h:
 
 /opt/homebrew/include/boost/asio/detail/buffer_resize_guard.hpp:
 
+/opt/homebrew/include/boost/tuple/detail/tuple_basic.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_min.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/array:
@@ -5531,6 +7903,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__utility/unreachable.h:
 
+/opt/homebrew/include/boost/type_traits/cv_traits.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binder2nd.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__utility/pair.h:
@@ -5539,7 +7913,15 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/system_error:
 
+/opt/homebrew/include/boost/preprocessor/tuple/limits/reverse_64.hpp:
+
+/opt/homebrew/include/boost/mpl/next.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__utility/no_destroy.h:
+
+/opt/homebrew/include/boost/preprocessor/list/at.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/preprocessor/qualifier.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_null.h:
 
@@ -5565,6 +7947,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /opt/homebrew/include/boost/system/error_condition.hpp:
 
+/opt/homebrew/include/boost/preprocessor/variadic/to_array.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__utility/auto_cast.h:
@@ -5579,6 +7963,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__undef_macros:
 
+/opt/homebrew/include/boost/preprocessor/config/limits.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/string.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
@@ -5591,6 +7977,10 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/type_list.h:
 
+/opt/homebrew/include/boost/preprocessor/repetition/enum_shifted.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/tagged_argument.hpp:
+
 /opt/homebrew/include/boost/asio/associated_allocator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
@@ -5598,6 +7988,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/result_of.h:
+
+/opt/homebrew/include/boost/graph/property_maps/constant_property_map.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h:
 
@@ -5611,11 +8003,19 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/nat.h:
 
+/opt/homebrew/include/boost/preprocessor/tuple/eat.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_types/_uint16_t.h:
+
+/opt/homebrew/include/boost/type_traits/has_complement.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__locale:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
+
+/opt/homebrew/include/boost/smart_ptr/detail/shared_count.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/size_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
@@ -5637,6 +8037,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_default_constructible.h:
 
+/opt/homebrew/include/boost/type_traits/detail/yes_no_type.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_int32_t.h:
@@ -5655,6 +8057,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /opt/homebrew/include/boost/asio/detail/scheduler.hpp:
 
+/opt/homebrew/include/boost/parameter/aux_/is_maybe.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /opt/homebrew/include/boost/asio/impl/cancel_at.hpp:
@@ -5671,13 +8075,21 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
 
+/opt/homebrew/include/boost/mpl/pop_front_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/workaround.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_same.h:
 
 /opt/homebrew/include/boost/system/detail/error_code.hpp:
 
+/opt/homebrew/include/boost/multi_index/detail/access_specifier.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_timeval32.h:
+
+/opt/homebrew/include/boost/type_traits/has_trivial_move_constructor.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/formatter.h:
 
@@ -5687,19 +8099,29 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
 
+/opt/homebrew/include/boost/parameter/aux_/parameter_requirements.hpp:
+
+/opt/homebrew/include/boost/move/core.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__charconv/traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
 
+/opt/homebrew/include/boost/type_traits/copy_cv_ref.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/apply_cv.h:
+
+/opt/homebrew/include/boost/mpl/apply.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_function.h:
+
+/opt/homebrew/include/boost/type_traits/is_member_pointer.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
@@ -5713,11 +8135,15 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_const.h:
 
+/opt/homebrew/include/boost/preprocessor/list/to_tuple.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/format:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
+
+/opt/homebrew/include/boost/range/iterator_range_io.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h:
 
@@ -5726,6 +8152,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/xlocale/_time.h:
+
+/opt/homebrew/include/boost/mpl/set/aux_/insert_range_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
@@ -5741,6 +8169,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_assignable.h:
 
+/opt/homebrew/include/boost/mpl/push_front_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/min_max_result.h:
 
 /opt/homebrew/include/boost/asio/detail/base_from_completion_cond.hpp:
@@ -5753,6 +8183,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
+/opt/homebrew/include/boost/iterator/enable_if_convertible.hpp:
+
 /opt/homebrew/include/boost/asio/ip/impl/address_v6.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
@@ -5761,9 +8193,13 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
+/opt/homebrew/include/boost/mpl/integral_c.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/extent.h:
 
 /opt/homebrew/include/boost/asio/detail/impl/posix_event.ipp:
+
+/opt/homebrew/include/boost/multi_index/detail/index_access_sequence.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
@@ -5805,9 +8241,13 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
+/opt/homebrew/include/boost/unordered/unordered_map.hpp:
+
 /opt/homebrew/include/boost/asio/detail/utility.hpp:
 
 /opt/homebrew/include/boost/asio/connect.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/ord_index_impl_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/for_each.h:
 
@@ -5816,6 +8256,10 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/aligned_union.h:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/gamma_distribution.h:
 
@@ -5826,6 +8270,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__concepts/predicate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
+
+/opt/homebrew/include/boost/preprocessor/list/detail/limits/fold_right_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__concepts/common_reference_with.h:
 
@@ -5851,6 +8297,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
 
+/opt/homebrew/include/boost/mpl/set/set0.hpp:
+
 /opt/homebrew/include/boost/mp11/integer_sequence.hpp:
 
 /opt/homebrew/include/boost/container_hash/hash_is_avalanching.hpp:
@@ -5859,6 +8307,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /opt/homebrew/include/boost/detail/workaround.hpp:
 
+/opt/homebrew/include/boost/mpl/order_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/assert.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__threading_support:
@@ -5866,6 +8316,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/ranges:
 
 /opt/homebrew/include/boost/system/detail/error_category_impl.hpp:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/in_found_result.h:
 
@@ -5881,6 +8333,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__system_error/system_error.h:
 
+/opt/homebrew/include/boost/move/detail/workaround.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/typeindex:
@@ -5888,6 +8342,12 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__system_error/error_condition.h:
 
 /opt/homebrew/include/boost/container_hash/is_tuple_like.hpp:
+
+/opt/homebrew/include/boost/preprocessor/control/limits/while_256.hpp:
+
+/opt/homebrew/include/boost/parameter/aux_/has_nested_template_fn.hpp:
+
+/opt/homebrew/include/boost/graph/properties.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__system_error/error_category.h:
 
@@ -5899,6 +8359,10 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__system_error/errc.h:
 
+/opt/homebrew/include/boost/preprocessor/facilities/is_empty.hpp:
+
+/opt/homebrew/include/boost/mpl/vector/aux_/push_front.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
 
 /opt/homebrew/include/boost/asio/detail/resolver_thread_pool.hpp:
@@ -5907,13 +8371,19 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
 
+/opt/homebrew/include/boost/iterator/detail/type_traits/type_identity.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
 
+/opt/homebrew/include/boost/mpl/aux_/yes_no.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
 /opt/homebrew/include/boost/asio/impl/config.hpp:
+
+/opt/homebrew/include/boost/type_traits/has_divides_assign.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/container_adaptor.h:
 
@@ -5922,6 +8392,12 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/queue.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/cerrno:
+
+/opt/homebrew/include/boost/type_traits/is_scalar.hpp:
+
+/opt/homebrew/include/boost/preprocessor/repetition/repeat.hpp:
+
+/opt/homebrew/include/boost/mpl/void_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h:
 
@@ -5934,6 +8410,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/from_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
+
+/opt/homebrew/include/boost/mpl/aux_/config/compiler.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
@@ -5959,6 +8437,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/data.h:
 
+/opt/homebrew/include/boost/preprocessor/list/for_each_i.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/filesystem:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h:
@@ -5971,6 +8451,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_void.h:
 
+/opt/homebrew/include/boost/iterator/distance.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h:
@@ -5982,6 +8464,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /opt/homebrew/include/boost/asio/traits/static_query.hpp:
 
 /opt/homebrew/include/boost/asio/detail/impl/resolver_thread_pool.ipp:
+
+/opt/homebrew/include/boost/type_traits/conjunction.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/istream:
 
@@ -6023,11 +8507,15 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/cauchy_distribution.h:
 
+/opt/homebrew/include/boost/type_traits/add_reference.hpp:
+
 /opt/homebrew/include/boost/uuid/detail/md5.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/month_weekday.h:
+
+/opt/homebrew/include/boost/preprocessor/seq/limits/fold_right_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__thread/formatter.h:
 
@@ -6046,6 +8534,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_partition_copy.h:
+
+/opt/homebrew/include/boost/preprocessor/list/rest_n.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/bit_width.h:
 
@@ -6081,6 +8571,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mutex/tag_types.h:
 
+/opt/homebrew/include/boost/type_traits/remove_const.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__utility/exception_guard.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mutex/mutex.h:
@@ -6089,9 +8581,13 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/endian.h:
 
+/opt/homebrew/include/boost/type_traits/has_left_shift_assign.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
 
 /opt/homebrew/include/boost/asio/executor_work_guard.hpp:
+
+/opt/homebrew/include/boost/mpl/bool.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
@@ -6103,7 +8599,11 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/unistd.h:
 
+/opt/homebrew/include/boost/preprocessor/array/push_back.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/ref_view.h:
+
+/opt/homebrew/include/boost/mpl/arg_fwd.hpp:
 
 /opt/homebrew/include/boost/asio/detail/cstddef.hpp:
 
@@ -6139,6 +8639,8 @@ _deps/spdlog-src/include/spdlog/details/registry.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
 
+/opt/homebrew/include/boost/type_traits/is_fundamental.hpp:
+
 _deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/libkern/arm/_OSByteOrder.h:
@@ -6155,21 +8657,31 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
+/opt/homebrew/include/boost/unordered/detail/serialize_tracked_address.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_move_constructible.h:
 
+/opt/homebrew/include/boost/mpl/bool_fwd.hpp:
+
 /opt/homebrew/include/boost/asio/cancellation_state.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/config/pp_counter.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/roots.h:
+
+/opt/homebrew/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_key_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
+
+/opt/homebrew/include/boost/mpl/aux_/comparison_op.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted_until.h:
 
@@ -6181,17 +8693,27 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/min_max.h:
 
+/opt/homebrew/include/boost/preprocessor/repeat.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/formatter_tuple.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/fdim.h:
 
+/opt/homebrew/include/boost/multi_index/detail/hash_index_node.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_transform.h:
+
+/opt/homebrew/include/boost/call_traits.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/exponential_functions.h:
+
+/opt/homebrew/include/boost/type_traits/is_pointer.hpp:
 
 /opt/homebrew/include/boost/asio/dispatch.hpp:
 
@@ -6203,6 +8725,8 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
+/opt/homebrew/include/boost/tuple/tuple.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/copysign.h:
 
 /opt/homebrew/include/boost/asio/detail/signal_op.hpp:
@@ -6210,6 +8734,8 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
 /opt/homebrew/include/boost/asio/windows/basic_object_handle.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_nlink_t.h:
+
+/opt/homebrew/include/boost/type_traits/has_negate.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h:
 
@@ -6220,6 +8746,8 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
 /opt/homebrew/include/boost/asio/write_at.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
+
+/opt/homebrew/include/boost/preprocessor/control/deduce_d.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
@@ -6234,6 +8762,8 @@ _deps/spdlog-src/include/spdlog/fmt/bundled/core.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/data.h:
 
 /opt/homebrew/include/boost/uuid/detail/chacha20.hpp:
+
+/opt/homebrew/include/boost/property_map/shared_array_property_map.hpp:
 
 _deps/spdlog-src/include/spdlog/spdlog.h:
 
@@ -6295,11 +8825,17 @@ _deps/spdlog-src/include/spdlog/fmt/fmt.h:
 
 /opt/homebrew/include/boost/config/compiler/clang.hpp:
 
+/opt/homebrew/include/boost/mpl/has_key_fwd.hpp:
+
 _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
+
+/opt/homebrew/include/boost/type_traits/declval.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/concepts.h:
+
+/opt/homebrew/include/boost/mpl/clear.hpp:
 
 /opt/homebrew/include/boost/asio/impl/any_io_executor.ipp:
 
@@ -6312,6 +8848,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/subrange.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
+
+/opt/homebrew/include/boost/parameter/keyword_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/string_view.h:
 
@@ -6379,9 +8917,17 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/invoke.h:
 
+/opt/homebrew/include/boost/mpl/aux_/push_front_impl.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h:
 
+/opt/homebrew/include/boost/type_traits/is_virtual_base_of.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
+
+/opt/homebrew/include/boost/range/detail/safe_bool.hpp:
+
+/opt/homebrew/include/boost/preprocessor/detail/auto_rec.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/addressof.h:
 
@@ -6397,7 +8943,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/counted.h:
 
+/opt/homebrew/include/boost/mpl/distance_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binder1st.h:
+
+/opt/homebrew/include/boost/preprocessor/list/for_each.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
 
@@ -6406,6 +8956,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__atomic/fence.h:
+
+/Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/core/planner.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/remove_const.h:
 
@@ -6433,15 +8985,21 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/formatter.h:
 
+/opt/homebrew/include/boost/mpl/key_type_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/format_to_n_result.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__charconv/chars_format.h:
 
 /opt/homebrew/include/boost/asio/detail/scheduler_thread_info.hpp:
 
+/opt/homebrew/include/boost/iterator/iterator_traits.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/format_parse_context.h:
 
 /opt/homebrew/include/boost/describe/modifiers.hpp:
+
+/opt/homebrew/include/boost/core/nvp.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
@@ -6465,6 +9023,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__concepts/copyable.h:
 
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
@@ -6485,9 +9045,13 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__exception/nested_exception.h:
 
+/opt/homebrew/include/boost/mpl/aux_/config/intel.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
+
+/opt/homebrew/include/boost/mpl/aux_/na.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__numeric/transform_reduce.h:
 
@@ -6499,9 +9063,15 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
 
+/opt/homebrew/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
+/opt/homebrew/include/boost/mpl/long_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__node_handle:
+
+/opt/homebrew/include/boost/type_traits/is_base_of.hpp:
 
 /opt/homebrew/include/boost/config/detail/suffix.hpp:
 
@@ -6510,6 +9080,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_backend.h:
+
+/opt/homebrew/include/boost/mpl/aux_/config/gcc.hpp:
 
 /opt/homebrew/include/boost/asio/this_coro.hpp:
 
@@ -6527,9 +9099,13 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__concepts/swappable.h:
 
+/opt/homebrew/include/boost/preprocessor/seq/cat.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_types/_uint64_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__std_mbstate_t.h:
+
+/opt/homebrew/include/boost/unordered/detail/type_traits.hpp:
 
 /opt/homebrew/include/boost/cerrno.hpp:
 
@@ -6545,6 +9121,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /opt/homebrew/include/boost/asio/detail/string_view.hpp:
 
+/opt/homebrew/include/boost/parameter/aux_/preprocessor/nullptr.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/stdint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__charconv/to_chars.h:
@@ -6556,6 +9134,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__concepts/destructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/Availability.h:
+
+/opt/homebrew/include/boost/preprocessor/facilities/is_empty_variadic.hpp:
 
 /opt/homebrew/include/boost/asio/ip/v6_only.hpp:
 
@@ -6585,15 +9165,27 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h:
 
+/opt/homebrew/include/boost/graph/graph_selectors.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
 
+/opt/homebrew/include/boost/type_traits/remove_all_extents.hpp:
+
+/opt/homebrew/include/boost/mpl/clear_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
+
+/opt/homebrew/include/boost/type_traits/is_object.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h:
+
+/opt/homebrew/include/boost/type_traits/remove_cv_ref.hpp:
+
+/opt/homebrew/include/boost/graph/astar_search.hpp:
 
 /opt/homebrew/include/boost/uuid/time_generator_v1.hpp:
 
@@ -6607,13 +9199,21 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
+/opt/homebrew/include/boost/preprocessor/iteration/local.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/align.h:
 
 /opt/homebrew/include/boost/asio/detail/thread_group.hpp:
 
+/opt/homebrew/include/boost/type_traits/is_arithmetic.hpp:
+
+/opt/homebrew/include/boost/smart_ptr/detail/deprecated_macros.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_sa_family_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h:
+
+/opt/homebrew/include/boost/type_traits/type_identity.hpp:
 
 /opt/homebrew/include/boost/asio/basic_raw_socket.hpp:
 
@@ -6637,6 +9237,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/format_context.h:
 
+/opt/homebrew/include/boost/type_traits/add_volatile.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
@@ -6647,11 +9249,17 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_types/_wctrans_t.h:
 
+/opt/homebrew/include/boost/multi_index/member.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/mergeable.h:
 
+/opt/homebrew/include/boost/unordered/unordered_set_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/monthday.h:
+
+/opt/homebrew/include/boost/mpl/aux_/msvc_never_true.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_static_assert.h:
 
@@ -6665,13 +9273,19 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/literals.h:
 
+/opt/homebrew/include/boost/preprocessor/array/pop_back.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_base_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
 
+/opt/homebrew/include/boost/multi_index/detail/index_loader.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/countr.h:
+
+/opt/homebrew/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
 
@@ -6685,8 +9299,6 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/file_clock.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/max.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__atomic/atomic_base.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_shuffle.h:
@@ -6699,7 +9311,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h:
 
+/opt/homebrew/include/boost/range/empty.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_is_partitioned.h:
+
+/opt/homebrew/include/boost/preprocessor/variadic/detail/has_opt.hpp:
 
 /opt/homebrew/include/boost/align/detail/is_alignment.hpp:
 
@@ -6717,11 +9333,17 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__charconv/to_chars_result.h:
 
+/opt/homebrew/include/boost/graph/detail/mpi_include.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/movable_box.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/netinet6/in6.h:
+
+/opt/homebrew/include/boost/preprocessor/variadic/to_list.hpp:
+
+/opt/homebrew/include/boost/multi_index/detail/index_saver.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 
@@ -6729,7 +9351,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__charconv/tables.h:
 
+/opt/homebrew/include/boost/preprocessor/detail/limits/auto_rec_256.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/ios.h:
+
+/opt/homebrew/include/boost/preprocessor/logical/bitxor.hpp:
 
 /opt/homebrew/include/boost/asio/ip/basic_resolver_iterator.hpp:
 
@@ -6753,7 +9379,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/count.h:
 
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/filter_view.h:
+
+/opt/homebrew/include/boost/mpl/aux_/msvc_type.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/bit_floor.h:
 
@@ -6769,11 +9399,17 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /opt/homebrew/include/boost/uuid/time_generator.hpp:
 
+/opt/homebrew/include/boost/parameter/aux_/lambda_tag.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__utility/swap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
 
+/opt/homebrew/include/boost/preprocessor/facilities/apply.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/logarithms.h:
+
+/opt/homebrew/include/boost/type_traits/has_pre_decrement.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_equality_comparable.h:
 
@@ -6797,7 +9433,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
+/opt/homebrew/include/boost/parameter/aux_/name.hpp:
+
 /opt/homebrew/include/boost/asio/detail/timer_scheduler_fwd.hpp:
+
+/opt/homebrew/include/boost/mpl/advance_fwd.hpp:
 
 /opt/homebrew/include/boost/asio/impl/serial_port_base.hpp:
 
@@ -6811,11 +9451,15 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/compose.h:
 
+/opt/homebrew/include/boost/move/detail/addressof.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_reverse.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__atomic/atomic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
+
+/opt/homebrew/include/boost/mpl/placeholders.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__assertion_handler:
 
@@ -6837,11 +9481,17 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
+/opt/homebrew/include/boost/type_traits/is_floating_point.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/iter_apply.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/iterator:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
+
+/opt/homebrew/include/boost/graph/named_graph.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
 
@@ -6849,7 +9499,13 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /opt/homebrew/include/boost/asio/execution.hpp:
 
+/opt/homebrew/include/boost/multi_index/indexed_by.hpp:
+
 /opt/homebrew/include/boost/config/helper_macros.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/to_tuple.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/to_array.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
 
@@ -6863,6 +9519,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_replace.h:
 
+/opt/homebrew/include/boost/preprocessor/array/elem.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
 
 /opt/homebrew/include/boost/asio/cancellation_signal.hpp:
@@ -6875,6 +9533,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
 
+/opt/homebrew/include/boost/multi_index/detail/define_if_constexpr_macro.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/filio.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
@@ -6885,7 +9545,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
+/opt/homebrew/include/boost/preprocessor/logical/nor.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/ioccom.h:
+
+/opt/homebrew/include/boost/type_traits/is_array.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/reverse.h:
 
@@ -6907,6 +9571,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
+/opt/homebrew/include/boost/type_traits/is_empty.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_class.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_move_backward.h:
@@ -6917,7 +9583,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
+/opt/homebrew/include/boost/preprocessor/arithmetic/detail/is_1_number.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/pthread/sched.h:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
@@ -6929,13 +9599,21 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_find_if.h:
 
+/opt/homebrew/include/boost/parameter/aux_/yesno.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
+/opt/homebrew/include/boost/type_traits/conditional.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/popcount.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/range_default_formatter.h:
+
+/opt/homebrew/include/boost/type_traits/has_new_operator.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/limits/fold_left_256.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_sort_heap.h:
 
@@ -6949,9 +9627,15 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_set_intersection.h:
 
+/opt/homebrew/include/boost/type_traits.hpp:
+
+/opt/homebrew/include/boost/next_prior.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/voidify.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/socket.h:
+
+/opt/homebrew/include/boost/unordered/detail/prime_fmod.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/machine/_endian.h:
 
@@ -6967,9 +9651,15 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /opt/homebrew/include/boost/asio/append.hpp:
 
+/opt/homebrew/include/boost/type_traits/has_post_increment.hpp:
+
 /Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/adapters/net_sim_asio.hpp:
 
+/opt/homebrew/include/boost/preprocessor/variadic/limits/size_64.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_search.h:
+
+/opt/homebrew/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
 
@@ -6978,6 +9668,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/streambuf.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted.h:
+
+/opt/homebrew/include/boost/preprocessor/list/size.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_sample.h:
 
@@ -6995,6 +9687,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_rotate_copy.h:
 
+/opt/homebrew/include/boost/preprocessor/seq/elem.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_rotate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/knuth_b.h:
@@ -7008,6 +9702,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_replace_if.h:
+
+/opt/homebrew/include/boost/mpl/aux_/nested_type_wknd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
 
@@ -7029,13 +9725,19 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h:
 
+/opt/homebrew/include/boost/mpl/vector/aux_/O1_size.hpp:
+
 /opt/homebrew/include/boost/asio/impl/io_context.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_time.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_prev_permutation.h:
 
+/opt/homebrew/include/boost/preprocessor/comparison/less_equal.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__chrono/month.h:
+
+/opt/homebrew/include/boost/core/launder.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/functional:
 
@@ -7061,6 +9763,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_clock_t.h:
 
+/opt/homebrew/include/boost/graph/adjacency_iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/lazy.h:
@@ -7071,19 +9775,31 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/thread:
 
+/opt/homebrew/include/boost/preprocessor/seq/for_each.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__numeric/iota.h:
 
 /opt/homebrew/include/boost/asio/basic_socket_acceptor.hpp:
+
+/opt/homebrew/include/boost/type_traits/integral_promotion.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h:
 
+/opt/homebrew/include/boost/type_traits/has_minus.hpp:
+
+/opt/homebrew/include/boost/optional/detail/optional_hash.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/hypot.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_minmax.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/set:
+
 /opt/homebrew/include/boost/asio/basic_random_access_file.hpp:
+
+/opt/homebrew/include/boost/range/detail/extract_optional_type.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
 
@@ -7111,6 +9827,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
+/opt/homebrew/include/boost/pending/container_traits.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
 /opt/homebrew/include/boost/asio/detail/timer_queue_base.hpp:
@@ -7131,9 +9849,15 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/list:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_fill.h:
 
+/opt/homebrew/include/boost/graph/detail/adjacency_list.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
+
+/opt/homebrew/include/boost/multi_index/hashed_index.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__thread/this_thread.h:
 
@@ -7149,6 +9873,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/sort.h:
 
+/opt/homebrew/include/boost/range/difference_type.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/geometric_distribution.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
@@ -7161,6 +9887,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /opt/homebrew/include/boost/asio/detail/reactive_socket_recvmsg_op.hpp:
 
+/opt/homebrew/include/boost/preprocessor/repetition/deduce_z.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_ends_with.h:
 
 /opt/homebrew/include/boost/asio/buffered_write_stream.hpp:
@@ -7168,6 +9896,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /opt/homebrew/include/boost/asio/impl/serial_port_base.ipp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_fill.h:
+
+/opt/homebrew/include/boost/mpl/aux_/msvc_eti_base.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
 
@@ -7185,9 +9915,15 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binary_function.h:
 
+/opt/homebrew/include/boost/type_traits/has_post_decrement.hpp:
+
+/opt/homebrew/include/boost/preprocessor/list/reverse.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__utility/forward.h:
+
+/opt/homebrew/include/boost/range/size_type.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/equal.h:
 
@@ -7203,11 +9939,15 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
 
+/opt/homebrew/include/boost/preprocessor/library.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/memory_resource:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
+
+/opt/homebrew/include/boost/unordered_map.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_intptr_t.h:
 
@@ -7220,6 +9960,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/arm/types.h:
 
 /opt/homebrew/include/boost/asio/detail/wait_handler.hpp:
+
+/opt/homebrew/include/boost/preprocessor/tuple/limits/to_list_64.hpp:
 
 /opt/homebrew/include/boost/config/platform/macos.hpp:
 
@@ -7241,9 +9983,13 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /opt/homebrew/include/boost/asio/detail/array_fwd.hpp:
 
+/opt/homebrew/include/boost/mpl/bind.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__math/gamma.h:
+
+/opt/homebrew/include/boost/unordered/detail/throw_exception.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_for_each.h:
 
@@ -7261,6 +10007,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_replace.h:
 
+/opt/homebrew/include/boost/range/const_iterator.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/views.h:
@@ -7277,6 +10025,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
+/opt/homebrew/include/boost/mpl/aux_/advance_forward.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_none_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/take_while_view.h:
@@ -7289,13 +10039,19 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/take_view.h:
 
+/opt/homebrew/include/boost/parameter/aux_/result_of0.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_clamp.h:
 
+/opt/homebrew/include/boost/mpl/arg.hpp:
+
 /opt/homebrew/include/boost/uuid/detail/basic_name_generator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_in_port_t.h:
+
+/opt/homebrew/include/boost/preprocessor/array/to_seq.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/min.h:
 
@@ -7307,11 +10063,19 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/backend.h:
 
+/opt/homebrew/include/boost/property_map/function_property_map.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__string/char_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_generate_n.h:
 
+/opt/homebrew/include/boost/type_traits/remove_extent.hpp:
+
+/opt/homebrew/include/boost/mpl/size.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__fwd/get.h:
+
+/opt/homebrew/include/boost/preprocessor/control.hpp:
 
 /opt/homebrew/include/boost/asio/impl/connect_pipe.hpp:
 
@@ -7323,6 +10087,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 
+/opt/homebrew/include/boost/operators.hpp:
+
 /opt/homebrew/include/boost/asio/detail/object_pool.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/generate.h:
@@ -7331,17 +10097,25 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/arm/_limits.h:
 
+/opt/homebrew/include/boost/mpl/count_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/max_element.h:
 
+/opt/homebrew/include/boost/mpl/aux_/has_begin.hpp:
+
+/opt/homebrew/include/boost/graph/breadth_first_search.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
 /opt/homebrew/include/boost/asio/detail/static_mutex.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/exception:
 
@@ -7356,6 +10130,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg_buffer.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__exception/terminate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mbstate_t.h:
+
+/opt/homebrew/include/boost/core/invoke_swap.hpp:
 
 /opt/homebrew/include/boost/mp11/utility.hpp:
 
@@ -7397,6 +10173,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/min_element.h:
 
+/opt/homebrew/include/boost/mpl/aux_/na_spec.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
 
 /opt/homebrew/include/boost/asio/detail/functional.hpp:
@@ -7413,6 +10191,8 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
 
+/opt/homebrew/include/boost/type_traits/has_trivial_copy.hpp:
+
 /opt/homebrew/include/boost/asio/ip/address_v6_iterator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_wctype.h:
@@ -7423,19 +10203,27 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /opt/homebrew/include/boost/asio/impl/consign.hpp:
 
+/opt/homebrew/include/boost/move/detail/meta_utils.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_equal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/fold.h:
 
+/opt/homebrew/include/boost/core/checked_delete.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_fd_setsize.h:
+
+/opt/homebrew/include/boost/type_traits/is_const.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_merge.h:
 
 /opt/homebrew/include/boost/mp11/detail/mp_front.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/pstl_generate.h:
+
+/opt/homebrew/include/boost/mpl/iterator_tags.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/arm/signal.h:
 
@@ -7447,11 +10235,17 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/_types/_rsize_t.h:
 
+/opt/homebrew/include/boost/range/config.hpp:
+
+/opt/homebrew/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_equal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/fill.h:
+
+/opt/homebrew/include/boost/type_traits/intrinsics.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/___wctype.h:
 
@@ -7467,13 +10261,21 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h:
 
+/opt/homebrew/include/boost/parameter/aux_/is_tagged_argument.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/projected.h:
+
+/opt/homebrew/include/boost/scoped_ptr.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/search.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
+
+/opt/homebrew/include/boost/preprocessor/control/expr_if.hpp:
+
+/opt/homebrew/include/boost/graph/detail/d_ary_heap.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/ranges_find.h:
 
@@ -7487,7 +10289,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
 
+/opt/homebrew/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__random/seed_seq.h:
+
+/opt/homebrew/include/boost/typeof/decltype.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/numbers:
 
@@ -7505,9 +10311,13 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/as_rvalue_view.h:
 
+/opt/homebrew/include/boost/preprocessor/facilities/identity.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/size.h:
+
+/opt/homebrew/include/boost/mpl/numeric_cast.hpp:
 
 /opt/homebrew/include/boost/asio/packaged_task.hpp:
 
@@ -7517,11 +10327,17 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
+/opt/homebrew/include/boost/type_traits/floating_point_promotion.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__filesystem/file_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_types/_uintmax_t.h:
 
+/opt/homebrew/include/boost/type_traits/extent.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
+
+/opt/homebrew/include/boost/parameter/template_keyword.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/wctype.h:
 
@@ -7537,7 +10353,11 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Users/dutchcaz/Projects/uav-swarm-coordinator/include/swarmgrid/core/metrics.hpp:
 
+/opt/homebrew/include/boost/mpl/aux_/config/adl.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/queue:
+
+/opt/homebrew/include/boost/mpl/same_as.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
@@ -7547,11 +10367,17 @@ _deps/spdlog-src/include/spdlog/details/log_msg.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
+/opt/homebrew/include/boost/type_traits/add_lvalue_reference.hpp:
+
 /opt/homebrew/include/boost/uuid/uuid_clock.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/string.h:
 
+/opt/homebrew/include/boost/type_traits/is_nothrow_swappable.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__config_site:
+
+/opt/homebrew/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
 
 _deps/spdlog-src/include/spdlog/version.h:
 
@@ -7563,11 +10389,17 @@ _deps/spdlog-src/include/spdlog/version.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/sys/uio.h:
 
+/opt/homebrew/include/boost/mpl/aux_/advance_backward.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
+
+/opt/homebrew/include/boost/type_traits/has_bit_or.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/_string.h:
 
 /opt/homebrew/include/boost/asio/detail/global.hpp:
+
+/opt/homebrew/include/boost/mpl/base.hpp:
 
 /opt/homebrew/include/boost/asio/impl/prepend.hpp:
 
@@ -7576,5 +10408,9 @@ _deps/spdlog-src/include/spdlog/version.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/repeat_view.h:
 
 /opt/homebrew/include/boost/system/detail/system_category_impl.hpp:
+
+/opt/homebrew/include/boost/preprocessor/seq/pop_back.hpp:
+
+/opt/homebrew/include/boost/mpl/insert_range_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:

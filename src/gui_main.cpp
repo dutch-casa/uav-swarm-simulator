@@ -85,6 +85,12 @@ int main(int argc, char* argv[]) {
         // Create simulation
         swarmgrid::Simulation simulation(config, std::move(map_loader), std::move(network));
 
+        // Initialize the simulation BEFORE the main loop starts
+        if (!simulation.initialize()) {
+            spdlog::error("Failed to initialize simulation");
+            return 1;
+        }
+
         spdlog::info("Starting GUI simulation with {} agents", config.num_agents);
 
         // Main render loop

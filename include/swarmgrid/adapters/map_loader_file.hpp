@@ -10,7 +10,7 @@ public:
     MapLoaderFile() = default;
     ~MapLoaderFile() override = default;
 
-    std::optional<swarmgrid::core::World> load(
+    std::optional<core::World> load(
         const std::filesystem::path& path,
         int n_agents,
         uint64_t seed

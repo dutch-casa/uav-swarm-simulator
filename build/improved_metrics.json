@@ -1,0 +1,9 @@
+{
+  "total_messages": 6264,
+  "dropped_messages": 318,
+  "total_replans": 51,
+  "makespan": 300,
+  "collision_detected": true,
+  "wall_time_ms": 67,
+  "drop_rate": 0.0508
+}

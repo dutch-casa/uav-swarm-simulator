@@ -17,7 +17,7 @@ TEST_CASE("NetSimAsio basic operations", "[network]") {
         auto sender_id = gen();
         auto receiver_id = gen();
 
-        Message msg{sender_id, {3, 4}, 5};
+        Message msg{sender_id, MessageType::PATH_ANNOUNCEMENT, {3, 4}, 5};
         net.send(msg);
 
         // Should receive on next tick
@@ -35,7 +35,7 @@ TEST_CASE("NetSimAsio basic operations", "[network]") {
         auto sender_id = gen();
         auto receiver_id = gen();
 
-        Message msg{sender_id, {1, 2}, 0};
+        Message msg{sender_id, MessageType::PATH_ANNOUNCEMENT, {1, 2}, 0};
         net.send(msg);
 
         // Too early
@@ -53,7 +53,7 @@ TEST_CASE("NetSimAsio basic operations", "[network]") {
 
         auto agent_id = gen();
 
-        Message msg{agent_id, {2, 3}, 0};
+        Message msg{agent_id, MessageType::PATH_ANNOUNCEMENT, {2, 3}, 0};
         net.send(msg);
 
         auto received = net.receive(agent_id, 1);
@@ -67,7 +67,7 @@ TEST_CASE("NetSimAsio basic operations", "[network]") {
         auto sender_id = gen();
         auto receiver_id = gen();
 
-        Message msg{sender_id, {5, 5}, 0};
+        Message msg{sender_id, MessageType::PATH_ANNOUNCEMENT, {5, 5}, 0};
         net.send(msg);
 
         net.reset();
@@ -83,9 +83,9 @@ TEST_CASE("NetSimAsio basic operations", "[network]") {
         auto sender_id = gen();
         auto receiver_id = gen();
 
-        Message msg1{sender_id, {1, 1}, 0};
-        Message msg2{sender_id, {2, 2}, 1};
-        Message msg3{sender_id, {3, 3}, 2};
+        Message msg1{sender_id, MessageType::PATH_ANNOUNCEMENT, {1, 1}, 0};
+        Message msg2{sender_id, MessageType::PATH_ANNOUNCEMENT, {2, 2}, 1};
+        Message msg3{sender_id, MessageType::PATH_ANNOUNCEMENT, {3, 3}, 2};
 
         net.send(msg1);
         net.send(msg2);
@@ -107,7 +107,7 @@ TEST_CASE("NetSimAsio probabilistic behavior", "[network]") {
 
         int sent = 100;
         for (int i = 0; i < sent; ++i) {
-            Message msg{sender_id, {i, i}, i};
+            Message msg{sender_id, MessageType::PATH_ANNOUNCEMENT, {i, i}, i};
             net.send(msg);
         }
 
@@ -129,7 +129,7 @@ TEST_CASE("NetSimAsio probabilistic behavior", "[network]") {
 
         // Send same messages through both networks
         for (int i = 0; i < 10; ++i) {
-            Message msg{sender_id, {i, i}, i};
+            Message msg{sender_id, MessageType::PATH_ANNOUNCEMENT, {i, i}, i};
             net1.send(msg);
             net2.send(msg);
         }

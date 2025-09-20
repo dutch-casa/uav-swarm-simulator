@@ -8,6 +8,7 @@
 #include <memory>
 #include <filesystem>
 #include <optional>
+#include <mutex>
 
 namespace swarmgrid {
 
@@ -74,17 +75,42 @@ private:
         };
         std::vector<OtherAgentIntent> known_intents;
 
-        // Local reservation table based on received messages
-        core::ReservationTable local_reservations;
+        // Mesh-style distributed state management
+        core::ReservationTable local_reservations;  // Local view of all reservations
+        std::unordered_map<boost::uuids::uuid, uint64_t, boost::hash<boost::uuids::uuid>> last_seen_sequence;  // Track message ordering
+        core::Tick last_state_broadcast = 0;  // When we last sent full state
+        core::Tick last_state_received = 0;   // When we last received full state from others
+
+        // Vector clock for causal ordering
+        std::unordered_map<boost::uuids::uuid, uint64_t, boost::hash<boost::uuids::uuid>> vector_clock;
+        uint64_t local_clock = 0;  // This agent's logical clock value
+
+        // State sync frequency control
+        static constexpr int STATE_BROADCAST_INTERVAL = 10;  // Broadcast full state every N ticks
+        static constexpr int STALE_STATE_THRESHOLD = 15;     // Consider state stale after N ticks
+
+        // Deadlock detection
+        int stuck_counter = 0;                               // How many ticks agent hasn't moved
+        core::Cell last_position = {-1, -1};               // Track if agent is moving
+        core::Tick last_successful_move = 0;               // When agent last successfully moved
+        static constexpr int DEADLOCK_THRESHOLD = 6;       // Consider deadlocked after N stuck ticks
     };
 
     std::vector<AgentController> agent_controllers_;
     core::Tick current_tick_ = 0;
     bool initialized_ = false;
 
+    // Thread synchronization for world access
+    mutable std::mutex world_access_mutex_;
+
     void step_internal();
+    void receive_and_update_local_state();
     void plan_agent_moves();
-    void exchange_intents();
+    void broadcast_intents();
+    void exchange_intents();  // Keep for compatibility
+    void validate_pre_execution_conflicts();
+    void detect_and_resolve_deadlocks();
+    void resolve_deadlock(const std::vector<boost::uuids::uuid>& deadlocked_agents);
     void execute_moves();
     void detect_and_handle_collisions();
     bool check_termination() const;

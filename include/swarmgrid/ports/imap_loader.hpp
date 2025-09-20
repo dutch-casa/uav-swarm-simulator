@@ -11,7 +11,7 @@ class IMapLoader {
 public:
     virtual ~IMapLoader() = default;
 
-    virtual std::optional<swarmgrid::core::World> load(
+    virtual std::optional<core::World> load(
         const std::filesystem::path& path,
         int n_agents,
         uint64_t seed

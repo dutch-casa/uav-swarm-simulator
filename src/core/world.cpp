@@ -184,7 +184,7 @@ bool WorldManager::all_agents_at_goal() const {
 
 int WorldManager::count_active_agents() const {
     return std::count_if(world_.agents.begin(), world_.agents.end(),
-        [](const AgentState& a) { return !a.at_goal; });
+        [](const AgentState& a) { return !a.at_goal && !a.collision_stopped; });
 }
 
 std::optional<Cell> WorldManager::get_agent_position(const boost::uuids::uuid& agent_id) const {
@@ -226,6 +226,15 @@ std::vector<boost::uuids::uuid> WorldManager::detect_collisions() const {
     }
 
     return colliding_agents;
+}
+
+void WorldManager::set_agent_collision_stopped(const boost::uuids::uuid& agent_id, bool stopped) {
+    auto it = std::find_if(world_.agents.begin(), world_.agents.end(),
+        [&agent_id](AgentState& a) { return a.id == agent_id; });
+
+    if (it != world_.agents.end()) {
+        it->collision_stopped = stopped;
+    }
 }
 
 } // namespace swarmgrid::core

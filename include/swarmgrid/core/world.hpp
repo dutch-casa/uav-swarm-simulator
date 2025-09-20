@@ -50,6 +50,8 @@ public:
     bool check_collision(const boost::uuids::uuid& agent_id, const Cell& pos) const;
     std::vector<boost::uuids::uuid> detect_collisions() const;
 
+    void set_agent_collision_stopped(const boost::uuids::uuid& agent_id, bool stopped);
+
 private:
     World world_;
 };

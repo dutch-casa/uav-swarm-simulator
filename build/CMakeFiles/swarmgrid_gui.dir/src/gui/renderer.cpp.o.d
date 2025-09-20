@@ -1234,6 +1234,8 @@ CMakeFiles/swarmgrid_gui.dir/src/gui/renderer.cpp.o: \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_locale.h \
   /opt/homebrew/Cellar/sdl2/2.32.10/include/SDL2/SDL_misc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__tree \
   /Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/imgui-src/imgui.h \
   /Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/imgui-src/imconfig.h \
   /Users/dutchcaz/Projects/uav-swarm-coordinator/build/_deps/imgui-src/backends/imgui_impl_sdl2.h \

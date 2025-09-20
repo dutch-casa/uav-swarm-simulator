@@ -1,6 +1,7 @@
 #pragma once
 
 #include "swarmgrid/core/types.hpp"
+#include "swarmgrid/core/planner.hpp"  // For Path and ReservationTable types
 #include <boost/uuid/uuid.hpp>
 #include <vector>
 #include <memory>
@@ -8,10 +9,27 @@
 
 namespace swarmgrid::ports {
 
+// ReservationTable is defined in planner.hpp which is already included
+
+enum class MessageType {
+    PATH_ANNOUNCEMENT,    // Agent announcing its planned path
+    STATE_SYNC,          // Full reservation table sync
+    GOAL_REACHED         // Agent announcing permanent goal occupation (high priority)
+};
+
 struct Message {
     boost::uuids::uuid from;
+    MessageType type = MessageType::PATH_ANNOUNCEMENT;
     swarmgrid::core::Cell next;
     swarmgrid::core::Tick timestamp;
+    swarmgrid::core::Path planned_path;  // Full planned path for coordination
+
+    // For mesh-style state sharing
+    uint64_t sequence_number = 0;  // For ordering messages
+    std::shared_ptr<swarmgrid::core::ReservationTable> full_state = nullptr;  // Complete reservation table
+
+    // Vector clock for causal ordering of events
+    std::unordered_map<boost::uuids::uuid, uint64_t, boost::hash<boost::uuids::uuid>> vector_clock;
 };
 
 struct NetworkParams {

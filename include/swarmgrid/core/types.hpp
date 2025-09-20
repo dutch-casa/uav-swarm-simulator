@@ -38,6 +38,7 @@ struct AgentState {
     std::vector<Cell> planned_path;
     size_t path_index = 0;
     bool at_goal = false;
+    bool collision_stopped = false;  // Agent stopped due to collision
     int replans = 0;
 
     bool operator==(const AgentState& other) const noexcept {
